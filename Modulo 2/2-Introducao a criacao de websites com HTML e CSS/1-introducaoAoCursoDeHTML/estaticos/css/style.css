@@ -1,6 +1,9 @@
 body{
     background-color: #f7f7f7;
     font-family: Verdana;
+    /* width: 900px; */
+    max-width: 900px;
+    margin: auto;
 }
 
 #tittle, .subtittle, .post_tittle{
@@ -41,10 +44,14 @@ a{
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
+    
 }
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 10px;
 }
 
 .contact_list{
