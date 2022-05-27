@@ -1,9 +1,20 @@
 body{
     background-color: #f7f7f7;
+    font-family: Verdana;
 }
 
 #tittle, .subtittle, .post_tittle{
     color: #505050
+}
+
+#tittle {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
 }
 
 .perfil_img{
@@ -29,6 +40,7 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image{
