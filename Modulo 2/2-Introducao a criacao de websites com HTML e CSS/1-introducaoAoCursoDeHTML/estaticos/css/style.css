@@ -1,3 +1,7 @@
+body{
+    background-color: #ccc;
+}
+
 #tittle, .subtittle, .post_tittle{
     color: blue
 }
@@ -5,4 +9,11 @@
 .post_tittle{
     font-size: 16px;
     font-style: italic;
+}
+
+.post{
+    background-color: white;
+    padding: 10px;
+    border: black 3px solid;
+    margin: 10px;
 }
