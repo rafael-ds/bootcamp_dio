@@ -1,19 +1,36 @@
 body{
-    background-color: #ccc;
+    background-color: #f7f7f7;
 }
 
 #tittle, .subtittle, .post_tittle{
-    color: blue
+    color: #505050
+}
+
+.perfil_img{
+    border-radius: 50%;
+    border: #505050 solid 1px;
 }
 
 .post_tittle{
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post{
     background-color: white;
-    padding: 10px;
-    border: black 3px solid;
-    margin: 10px;
+    padding: 15px;
+    border: #505050 3px solid;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
 }
