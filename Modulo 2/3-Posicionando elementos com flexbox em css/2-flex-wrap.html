@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fundamentos Flex Wrap</title>
+
+        <style>
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+                height: auto;
+                border: solid 1px;
+                max-width: 300px;
+            }
+
+            .item{
+                font-size: 24px;
+                height: 50%;
+                text-align: center;
+                width: 100px;
+                line-height: 50px;
+
+                min-width: 100px;
+            }
+
+            .nowrap{
+                flex-wrap: nowrap;
+            }
+
+            .wrap{
+                flex-wrap: wrap;
+            }
+
+            .wrap-reverse{
+                flex-wrap: wrap-reverse;
+            }
+
+            .blue{
+                background: blue;
+            }
+
+            .gree{
+                background: green;
+            }
+
+            .yellow{
+                background: yellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>No Wrap</h1>
+
+        <div class="flex-container nowrap">
+            <div class="item blue">1</div>
+            <div class="item gree">2</div>
+            <div class="item yellow">3</div>
+            <div class="item blue">4</div>
+        </div>
+        
+        <h1>Wrap</h1>
+        <div class="flex-container wrap">
+            <div class="item blue">1</div>
+            <div class="item gree">2</div>
+            <div class="item yellow">3</div>
+            <div class="item blue">4</div>
+        </div>
+
+        <h1>Wrap Reverse</h1>
+        <div class="flex-container wrap-reverse">
+            <div class="item blue">1</div>
+            <div class="item gree">2</div>
+            <div class="item yellow">3</div>
+            <div class="item blue">4</div>
+
+        </div>
+    </body>
+</html>
