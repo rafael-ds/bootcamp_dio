@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content </title>
+
+    <style>
+
+        .container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: solid 1px;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px ;
+            margin: 5px;
+            flex: 1;
+            color: white;
+            text-align: center;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .start{
+            align-content: flex-start;
+        }
+
+        .end{
+            align-content: flex-end;
+        }
+
+        .space-arond{
+            align-content: space-around;
+        }
+        
+        .space-between{
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adaborum quisquam nisi placeat perferencusamus odio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adip deleniti provident laborum quisquam nt iste, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipis </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipi nisi placeat perferendis, magni expedita sodio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipdent laborum quisquam nisi placea 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur perferendis, magni 
+        </div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">
+            Lorem ipsum dolor sitpariatur deleniti prcorrupti accusamus odio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetueleniti pi expedita sint iste, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consiste, dicdio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet cocing elitm qu  </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum quisdis, magni 
+        </div>
+    </div>
+
+
+    <p>start</p>
+    <div class="container start">
+        <div class="item">
+            Lorem ipsum dolor sitpariatur  odio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectette, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adi.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consiste, dicdio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet cocing elitm qu  </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum
+        </div>
+    </div>
+
+    <p>end</p>
+    <div class="container end">
+        <div class="item">
+            Lorem ipsum dolor sitpariatur  odio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectette, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur adi.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consiste, dicdio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet cocing elitm qu  </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum
+        </div>
+    </div>
+
+    <p>space-arond</p>
+    <div class="container space-arond">
+        <div class="item">
+            Lorem ipsum dolor sitpariatur  odio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectette, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consiste, dicdio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor si  </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum
+        </div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">
+            Lorem ipsum dolor sitpariatur  odio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectette, 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consiste, dicdio.
+        </div>
+        <div class="item">
+            Lorem ipsum dolor si  </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet 
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum
+        </div>
+        <div class="item">
+            Lorem ipsum dolor sit amet consectetur rum
+        </div>
+    </div>
+</body>
+</html>
