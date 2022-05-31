@@ -31,5 +31,5 @@ Término: 00/2022
 * C#
 
 ### 🎉 Projetos
- * [Flex Turismo]([https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/3-Posicionando%20elementos%20com%20flexbox%20em%20css/Projeto%20Integrador](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/3-Posicionando%20elementos%20com%20flexbox%20em%20css)  
+ * [Flex Turismo](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/3-Posicionando%20elementos%20com%20flexbox%20em%20css)
 
