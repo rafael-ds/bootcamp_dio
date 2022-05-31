@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fundamentos Align-Self</title>
+
+        <style>
+            .flex-container{
+                display: flex;
+                border: solid 1px;
+                max-width: 350px;
+                margin-bottom: 10px;
+
+                /*align-items: center;*/
+            }
+            .align-content{
+                align-items: center;
+            }
+
+            .item{
+                flex: 1;
+                background-color: orangered;
+                color: white;
+                margin: 5px;
+                font-size: 24px;
+                text-align: center;
+                
+            }
+
+            .center{
+                align-self: center;
+            }
+
+            .start{
+                align-self: flex-start;
+            }
+
+            .end{
+                align-self: flex-end;
+            }
+
+            .baseline{
+                align-self: baseline;
+            }
+
+            .stretch{
+                align-self: stretch;
+            }
+
+            .auto{
+                align-self: auto;
+            }
+
+            .direction{
+                flex-direction: column;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>row</h1>
+        <p>align-self: auto</p>
+        <div class="flex-container">
+            <div class="item auto">1</div>
+            <div class="item auto">AAA</div>
+            <div class="item auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="item auto">CCCCCCS</div>
+        </div>
+
+        <p>align-self: multi</p>
+        <div class="flex-container">
+            <div class="item center">1</div>
+            <div class="item start">AAA</div>
+            <div class="item stretch">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="item end">CCCCCCS</div>
+        </div>
+
+        <h1>colunm</h1>
+        <p>align-self: auto</p>
+        <div class="flex-container align-content direction">
+            <div class="item auto">1</div>
+            <div class="item auto">AAA</div>
+            <div class="item auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="item auto">CCCCCCS</div>
+        </div>
+
+        <p>align-self: multi</p>
+        <div class="flex-container direction">
+            <div class="item center">1</div>
+            <div class="item start">AAA</div>
+            <div class="item stretch">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="item end">CCCCCCS</div>
+        </div>
+    </body>
+</html>
