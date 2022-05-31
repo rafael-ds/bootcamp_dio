@@ -18,8 +18,9 @@ ul li a{
     display: flex;
     max-width: 992px;
     margin: auto;
-
+    min-width: 320px;
     width: 100%;
+    /* padding: 10px 15px; */
 }
 
 header{
@@ -59,7 +60,6 @@ header .menu{
 
 .apresentacao .texto-apresentacao{
     min-height: 200px;
-
 }
 
 .texto-apresentacao h1{
@@ -241,4 +241,66 @@ header .menu{
     background-color: #122a57;
     margin-right: 5px;
 
+}
+
+footer{
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.roda-pe{
+    justify-content: space-between;
+    color: white;
+}
+
+
+/* MediaQuerys */
+
+@media(max-width: 992px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao .texto-apresentacao{
+        width: 100%;
+    }
+
+    #quem-somos{
+        flex-direction: column-reverse;
+    }
+
+    #quem-somos img{
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .lista-servicos{
+        flex-direction: column;
+    }
+
+    .itens-servicos img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .lista-planos{
+        
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+
+    }
+
+    .lista-planos .item-plano{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
