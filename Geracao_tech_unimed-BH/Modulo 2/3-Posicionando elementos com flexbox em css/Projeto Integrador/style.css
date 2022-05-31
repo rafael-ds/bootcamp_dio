@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', 'sans-serif';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul{
@@ -173,10 +173,19 @@ header .menu{
 #planos{
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2{
+    font-size: 32px;
+    color: #122a57;
+
 }
 .lista-planos{
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
+
 }
 
 .item-plano{
@@ -184,6 +193,7 @@ header .menu{
     flex: 1;
     margin-right: 20px;
     padding: 10px;
+    max-width: 240px;
 
 }
 
@@ -191,6 +201,7 @@ header .menu{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 3px 5px .5px gray;
 }
 
 .item-plano h3{
@@ -198,6 +209,7 @@ header .menu{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 20px;
 }
 
 .item-plano h3::after{
@@ -213,4 +225,20 @@ header .menu{
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122a57;
+    margin-right: 5px;
+
 }
