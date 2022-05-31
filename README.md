@@ -7,9 +7,6 @@
 # 📑Sobre
 Repositório destinado ao bootcamp da dio
 
------
-<br>
-<br>
 
 # 🏆 Bootcamps
 
