@@ -11,8 +11,7 @@
                 display: flex;
                 border: solid 1px;
                 max-width: 350px;
-
-
+                margin-bottom: 20px;
             }
 
             .item{
@@ -21,21 +20,69 @@
                 margin: 5px;
                 text-align: center;
                 font-size: 24px;
-
+                
             }
 
+            .s-1{
+                flex-shrink: 1;
+            }
+
+            .s-0{
+                flex-shrink: 0;
+                flex-basis: 200px;
+            }
+
+            .s-2{
+                flex-shrink: 2;
+                flex-basis: 100px;
+                
+            }
+
+            .s-3{
+                flex-shrink: 3;
+                
+            }
+
+            .fg-1{
+                flex-grow: 1;
+            }
             
         </style>
     </head>
 
     <body>
-        <p>flex-basis: auto</p>
+        <p>flex-shrink: 1</p>
         <div class="flex-container ">
-            <div class="item">A</div>
-            <div class="item">BBB</div>
-            <div class="item">C</div>
-            <div class="item">DEF</div>
+            <div class="item s-1 fg-1">A</div>
+            <div class="item s-1 fg-1">B</div>
+            <div class="item s-1 fg-1">C</div>
+            <div class="item s-1 fg-1">D</div>
+            <div class="item s-1 fg-1">E</div>
         </div>
 
+        <div class="flex-container ">
+            <div class="item s-1 fg-1">A</div>
+            <div class="item s-1 fg-1">B</div>
+            <div class="item s-1 fg-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+            <div class="item s-1 fg-1">D</div>
+            <div class="item s-1 fg-1">E</div>
+        </div>
+
+        <p>flex-shrink: 0/basis: 100px</p>
+        <div class="flex-container ">
+            <div class="item s-0 fg-1">A</div>
+            <div class="item s-0 fg-1">B</div>
+            <div class="item s-0 fg-1">C</div>
+            <div class="item s-0 fg-1">D</div>
+            <div class="item s-0 fg-1">E</div>
+        </div>
+
+        <p>flex-shrink: mix / basis: 100px</p>
+        <div class="flex-container ">
+            <div class="item s-0 fg-1">A</div>
+            <div class="item s-1 fg-1">BBBBB</div>
+            <div class="item s-2 fg-1">CCCCCCCCC</div>
+            <div class="item s-3 fg-1">D</div>
+        </div>
     </body>
 </html>
