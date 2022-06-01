@@ -3,7 +3,7 @@
 </h1>
 
 ## 📑 Sobre
-Projeto desenvolvido no bootcamp Geração Tech Unimed-BH com o objetivo de recirar a página de login do instagram.
+Projeto desenvolvido no bootcamp Geração Tech Unimed-BH com o objetivo de recriar a página de login do instagram.
 
 **Curso:** Recriando a pagina inicial do instagram <br>
 ⏱ 1h
