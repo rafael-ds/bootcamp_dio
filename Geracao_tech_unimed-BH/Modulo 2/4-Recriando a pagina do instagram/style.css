@@ -7,10 +7,10 @@
     font-size: 14px;
 }
 
-body{
+section{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(250, 250, 250);
     margin: 0;
     padding: 0;
     display: flex;
@@ -21,7 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 65%;
     height: 100vh;
 
 }
@@ -34,7 +34,7 @@ body{
 }
 
 .phones img{
-    width: 50rem;
+    width: 468px;
 }
 
 .instagram-continue{
@@ -55,18 +55,21 @@ body{
     flex-direction: column;
     background-color: #fff;
     width: 100%;
+    max-width: 330px;
+    margin-top: 5px;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
 
 }
 
 .group:nth-child(1){
     min-height: 19rem;
+    min-height: 370px;
     
 }
 
 .instagram-logo{
     height: 3rem;
+    margin-top: 30px;
 }
 
 .foto-perfil{
@@ -91,7 +94,9 @@ body{
 
 .instagram-logout{
     color: #0095f6;
-    margin-top: 1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+
 }
 
 .not-account{
@@ -100,6 +105,8 @@ body{
 
 .link-blue{
     color: #0095f6;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .get-the-app{
@@ -129,11 +136,64 @@ body{
 }
 
 .app-download:nth-child(1){
-    background-image: url(./img/apple-button.png);
+    background-image: url(./img/btn-appleStore.png);
 }
 
 .app-download:nth-child(2){
-    background-image: url(./img/googleplay-button.png);
+    background-image: url(./img/btn-googleStore.png);
+}
+
+
+footer{
+    background-color: rgb(250, 250, 250);
+    margin: -20px;
+    padding: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #8e8e8e;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.footer ul{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.footer ul li{
+    padding: 5px;
+
+}
+
+.footer ul li a{
+    color: #8e8e8e;
+}
+
+.marca{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.meta{
+    margin-left: 15px;
+}
+.idiomas select{
+    border: none;
+    color: #8e8e8e;
+    text-align: center;
 }
 
 
@@ -143,6 +203,8 @@ body{
         width: 90%;
     }
 }
+
+
 
 @media(max-width: 514px){
     body{
