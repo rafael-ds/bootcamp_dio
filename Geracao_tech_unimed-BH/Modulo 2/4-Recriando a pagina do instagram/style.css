@@ -70,7 +70,6 @@ body{
 }
 
 .foto-perfil{
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,4 +134,33 @@ body{
 
 .app-download:nth-child(2){
     background-image: url(./img/googleplay-button.png);
+}
+
+
+/* MediaQueries */
+@media(max-width: 992px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media(max-width: 514px){
+    body{
+        background-color: white;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .phones{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group{
+        border: none;
+    }
 }
