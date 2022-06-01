@@ -7,10 +7,14 @@
     font-size: 14px;
 }
 
+body{
+    background-color: rgb(250, 250, 250);
+
+}
+
 section{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(250, 250, 250);
     margin: 0;
     padding: 0;
     display: flex;
@@ -34,7 +38,7 @@ section{
 }
 
 .phones img{
-    width: 468px;
+    width: 380px;
 }
 
 .instagram-continue{
@@ -56,15 +60,19 @@ section{
     background-color: #fff;
     width: 100%;
     max-width: 330px;
-    margin-top: 5px;
     padding: 1.3rem 0;
 
 }
 
 .group:nth-child(1){
-    min-height: 19rem;
+    /* min-height: 19rem; */
     min-height: 370px;
     
+}
+
+.group:nth-child(2){
+    margin-top: 5px;
+
 }
 
 .instagram-logo{
@@ -127,8 +135,6 @@ section{
 }
 
 .app-download{
-    /* border: solid 1px; */
-
     height: 3rem;
     width: 10rem;
     background-size: cover;
@@ -145,8 +151,7 @@ section{
 
 
 footer{
-    background-color: rgb(250, 250, 250);
-    margin: -20px;
+    /* margin-top: -20px; */
     padding: 0;
     padding: 10px;
     display: flex;
@@ -154,12 +159,15 @@ footer{
     justify-content: center;
     color: #8e8e8e;
 
+    height: 10vh;
+    /* border: solid 1px; */
 }
 
 .footer{
     display: flex;
     align-items: center;
     width: 100%;
+    
     
 }
 
@@ -192,6 +200,7 @@ footer{
 }
 .idiomas select{
     border: none;
+    background-color: rgb(250, 250, 250);    ;
     color: #8e8e8e;
     text-align: center;
 }
@@ -200,8 +209,21 @@ footer{
 /* MediaQueries */
 @media(max-width: 992px){
     .instagram-wrapper{
-        width: 90%;
+        width: 85%;
+        justify-content: center;
+        margin-top: 180px;
     }
+
+    .phones img{
+        width: 400px;
+
+    }
+
+
+    .footer{
+        margin-top: 270px;
+    }
+
 }
 
 
@@ -212,6 +234,7 @@ footer{
     }
     .instagram-wrapper{
         width: 90%;
+        margin-top: 0;
     }
 
     .phones{
@@ -225,4 +248,10 @@ footer{
     .group{
         border: none;
     }
+
+    
+    .footer{
+        margin-top: 0;
+    }
+
 }
