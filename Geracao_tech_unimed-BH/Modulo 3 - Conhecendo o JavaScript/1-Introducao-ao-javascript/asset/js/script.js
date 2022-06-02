@@ -1,4 +1,12 @@
-// console.log('Olá Mundo!')
+let currentNumberWrapper = document.getElementById('currentNumber')
+let currentNumber = 0
 
-let elemento = document.getElementsByTagName('h1')[0]
-elemento.style.color = 'red'
+function increment(){
+    currentNumber = currentNumber + 1
+    currentNumberWrapper.innerHTML = currentNumber
+}
+
+function decrement(){
+    currentNumber = currentNumber - 1
+    currentNumberWrapper.innerHTML = currentNumber
+}
