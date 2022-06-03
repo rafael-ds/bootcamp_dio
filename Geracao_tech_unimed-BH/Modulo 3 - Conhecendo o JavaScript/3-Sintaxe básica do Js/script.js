@@ -1,0 +1,1 @@
+alert('Novo Script')
