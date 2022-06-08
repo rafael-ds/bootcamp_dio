@@ -1,20 +1,15 @@
 "use strict";
-let button = document.getElementById('btn');
-let input_1 = document.getElementById('input1');
-let input_2 = document.getElementById('input2');
-function adcionarNumeros(num1, num2, devePrintar, frase) {
-    let resultado = num1 + num2;
-    if (devePrintar) {
-        console.log(frase, resultado);
-    }
-    return num1 + num2;
+// Protegendo o tipo
+// Desta maneira o retorno sera uma concatecaçã
+function soma(n1, n2) {
+    return n1 + n2.toString();
 }
-let devePrintar = true;
-let frase = 'O valor é: ';
-if (button) {
-    button.addEventListener('click', () => {
-        if (input_1 && input_2) {
-            adcionarNumeros(Number(input_1.value), Number(input_2.value), devePrintar, frase);
-        }
-    });
+// Erro provocado. O func(): number indica que
+// a saida tera que ser do tipo number
+function soma2(n1, n2) {
+    return n1 + n2.toString();
+}
+// Saida correta. Desta maneira a função fica protegida
+function soma3(n1, n2) {
+    return n1 + n2;
 }

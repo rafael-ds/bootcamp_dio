@@ -1,18 +1,17 @@
-let button = document.getElementById('btn')
-let input_1 = document.getElementById('input1') as HTMLInputElement
-let input_2 = document.getElementById('input2') as HTMLInputElement
+// Protegendo o tipo
 
-
-function adcionarNumeros(num1: number, num2: number){
-    return num1 + num2
+// Desta maneira o retorno sera uma concatecaçã
+function soma(n1: number, n2: number){
+    return n1 + n2.toString()
 }
 
-if(button){
+// Erro provocado. O func(): number indica que
+// a saida tera que ser do tipo number
+function soma2(n1: number, n2: number): number{
+    return n1 + n2.toString()
+}
 
-    button.addEventListener('click', () => {
-        if(input_1 && input_2){
-            adcionarNumeros(Number(input_1.value), Number(input_2.value))
-        }
-    })
-
+// Saida correta. Desta maneira a função fica protegida
+function soma3(n1: number, n2: number): number{
+    return n1 + n2
 }
