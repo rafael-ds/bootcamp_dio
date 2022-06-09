@@ -22,27 +22,32 @@
 //     nome: string,
 //     idade: number,
 // }
-let pessoa1 = {
-    nome: "maria",
+var Profissao;
+(function (Profissao) {
+    Profissao[Profissao["Atriz"] = 0] = "Atriz";
+    Profissao[Profissao["Padeiro"] = 1] = "Padeiro";
+})(Profissao || (Profissao = {}));
+const PESSOA1 = {
+    nome: 'Maria',
     idade: 29,
-    profissao: "atriz"
+    profissao: Profissao.Atriz
 };
-console.log(pessoa1.nome, pessoa1.idade, pessoa1.profissao);
-let pessoa2 = {
-    nome: "roberto",
+const PESSOA2 = {
+    nome: 'Roberto',
     idade: 19,
-    profissao: "Padeiro",
+    profissao: Profissao.Padeiro
 };
-console.log(pessoa2.nome, pessoa2.idade, pessoa2.profissao);
-let pessoa3 = {
-    nome: "laura",
+const PESSOA3 = {
+    nome: 'Laura',
     idade: 32,
-    profissao: "Atriz"
+    profissao: Profissao.Atriz
 };
-console.log(pessoa3.nome, pessoa3.idade, pessoa3.profissao);
-let pessoa4 = {
-    nome: "carlos",
+const PESSOA4 = {
+    nome: 'Carlos',
     idade: 19,
-    profissao: "padeiro"
+    profissao: Profissao.Padeiro
 };
-console.log(pessoa4.nome, pessoa4.idade, pessoa4.profissao);
+console.log(PESSOA1);
+console.log(PESSOA2);
+console.log(PESSOA3);
+console.log(PESSOA4);

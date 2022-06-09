@@ -13,10 +13,10 @@ const MANU = {
 var Profissao;
 (function (Profissao) {
     Profissao[Profissao["Professora"] = 0] = "Professora";
-    Profissao[Profissao["Atriz"] = 1] = "Atriz";
-    Profissao[Profissao["Desenvolvedora"] = 2] = "Desenvolvedora";
-    Profissao[Profissao["Advogada"] = 3] = "Advogada";
-    Profissao[Profissao["Estudante"] = 4] = "Estudante";
+    // Atriz,
+    Profissao[Profissao["Desenvolvedora"] = 1] = "Desenvolvedora";
+    Profissao[Profissao["Advogada"] = 2] = "Advogada";
+    Profissao[Profissao["Estudante"] = 3] = "Estudante";
 })(Profissao || (Profissao = {}));
 const KIRA = {
     nome: 'Kira',

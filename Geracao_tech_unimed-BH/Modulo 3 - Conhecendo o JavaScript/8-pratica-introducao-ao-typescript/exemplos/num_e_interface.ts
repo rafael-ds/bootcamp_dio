@@ -15,7 +15,7 @@ const MANU: {nome: string, idade: number, profissao: string} = {
 
 enum Profissao {
     Professora,
-    Atriz,
+    // Atriz,
     Desenvolvedora,
     Advogada,
     Estudante
@@ -24,7 +24,7 @@ enum Profissao {
 interface Pessoa {
     nome: string,
     idade: number,
-    profissao?: Profissao
+    // profissao?: Profissao
 
 }
 

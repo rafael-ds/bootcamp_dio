@@ -28,35 +28,42 @@
 
 // }
 
-let pessoa1: {nome: string, idade: number, profissao: string } = {
-    nome: "maria",
+enum Profissao{
+    Atriz,
+    Padeiro
+}
+
+interface Pessoa{
+    nome: string,
+    idade: number,
+    profissao: Profissao
+}
+
+const PESSOA1: Pessoa = {
+    nome: 'Maria',
     idade: 29,
-    profissao: "atriz"
-
+    profissao: Profissao.Atriz
 }
-console.log(pessoa1.nome, pessoa1.idade, pessoa1.profissao)
 
-let pessoa2: {nome: string, idade: number, profissao: string} = {
-
-    nome: "roberto",
+const PESSOA2: Pessoa = {
+    nome: 'Roberto',
     idade: 19,
-    profissao: "Padeiro",
-
+    profissao: Profissao.Padeiro
 }
 
-console.log(pessoa2.nome, pessoa2.idade, pessoa2.profissao)
-
-let pessoa3: {nome: string, idade: number, profissao: string } = {
-    nome: "laura",
+const PESSOA3: Pessoa = {
+    nome: 'Laura',
     idade: 32,
-    profissao: "Atriz"
-};
-console.log(pessoa3.nome, pessoa3.idade, pessoa3.profissao)
-
-let pessoa4: {nome: string, idade: number, profissao: string} = {
-    nome: "carlos",
-    idade: 19,
-    profissao: "padeiro"
+    profissao: Profissao.Atriz
 }
 
-console.log(pessoa4.nome, pessoa4.idade, pessoa4.profissao)
+const PESSOA4: Pessoa = {
+    nome: 'Carlos',
+    idade: 19,
+    profissao: Profissao.Padeiro
+}
+
+console.log(PESSOA1)
+console.log(PESSOA2)
+console.log(PESSOA3)
+console.log(PESSOA4)
