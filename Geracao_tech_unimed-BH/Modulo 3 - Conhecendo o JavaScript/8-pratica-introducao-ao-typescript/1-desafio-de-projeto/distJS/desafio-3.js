@@ -20,7 +20,7 @@ function limparSaldo() {
 }
 if (botaoAtualizar) {
     botaoAtualizar.addEventListener('click', function () {
-        depositos.push(soma.value);
+        depositos.push(Number(soma.value));
         somarAoSaldo(soma.value);
     });
 }

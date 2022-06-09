@@ -9,7 +9,7 @@ let campoSaldo = document.getElementById('campo-saldo') as HTMLBodyElement;
 
 campoSaldo.innerHTML = '0'
 
-let depositos = []
+let depositos: Array<Number> = []
 
 function somarAoSaldo(soma: string) {
     campoSaldo.innerHTML = soma 
@@ -30,7 +30,7 @@ function limparSaldo() {
 
 if(botaoAtualizar){
     botaoAtualizar.addEventListener('click', function () {        
-        depositos.push(soma.value)
+        depositos.push(Number(soma.value))
         somarAoSaldo(soma.value);
     });
 
