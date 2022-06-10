@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="https://ik.imagekit.io/dfnyrlf8n/Banner_Dio_vz9qJanAb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654023839087">
+    <img src="https://ik.imagekit.io/dfnyrlf8n/Banners/Banner_Dio_vz9qJanAb.png?ik-sdk-version=javascript-1.4.3&updatedAt=1654104005558">
 </h1>
 <br>
 <br>
@@ -30,7 +30,8 @@ Término: 00/2022
 * .NET
 * C#
 
-### 🎉 Projetos
+### 🏆 Projetos
  * [Flex Turismo](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/3-Posicionando%20elementos%20com%20flexbox%20em%20css)
  * [Pagina de login do intagram](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/4-Recriando%20a%20pagina%20do%20instagram)
+ * [Desafio de projeto TS](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%203%20-%20Conhecendo%20o%20JavaScript/8-pratica-introducao-ao-typescript/1-desafio-de-projeto)
 
