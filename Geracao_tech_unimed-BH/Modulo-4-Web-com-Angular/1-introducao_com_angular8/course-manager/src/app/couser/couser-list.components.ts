@@ -18,7 +18,7 @@ export class CourseListComponent implements OnInit {
                 price: 99.99,
                 code: 'xps-9-8796',
                 duration: 26,
-                rating: 5.4,
+                rating: 4.5,
                 releaseDate: '2 Novembro 2019'
 
             },
@@ -29,7 +29,7 @@ export class CourseListComponent implements OnInit {
                 price: 45.99,
                 code: 'lks-9-3596',
                 duration: 88,
-                rating: 4,
+                rating: 3.5,
                 releaseDate: '4 Dezembro 2019'
 
             }

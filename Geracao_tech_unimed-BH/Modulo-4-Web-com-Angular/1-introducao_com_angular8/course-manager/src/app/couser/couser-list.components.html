@@ -20,7 +20,9 @@
             <td>{{c.price}}</td>
             <td>{{c.code}}</td>
             <td>{{c.releaseDate}}</td>
-            <td>{{c.rating}}</td>
+            <td>
+                <app-star [rating]="c.rating"></app-star>
+            </td>
             <td></td>
         </tr>
     </tbody>
