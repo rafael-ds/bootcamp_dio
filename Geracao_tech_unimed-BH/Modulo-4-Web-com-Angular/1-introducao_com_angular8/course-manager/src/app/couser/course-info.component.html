@@ -1,1 +1,59 @@
-<h2>Course Id = {{ courseId }}</h2>
+<h2>Course Info</h2>
+<hr>
+
+<form #courseForm="ngForm">
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label" for="">Name: </label>
+    
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.name" required name="name" #courseName="ngModel" [ngClass]="{'is-invalid': courseName.invalid}" type="text" class="form-contol">
+            
+            <div class="invalid-feedback">
+                <span>Course name is required</span>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label" for="">Preço: </label>
+    
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.price" required name="price" #coursePrice="ngModel" [ngClass]="{'is-invalid': coursePrice.invalid}" type="number" class="form-contol">
+            
+            <div class="invalid-feedback">
+                <span>Course price is required</span>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label" for="">Preço: </label>
+    
+        <div class="col-sm-10">
+            <input [(ngModel)]="course.rating" required name="rating" #courseRating="ngModel" [ngClass]="{'is-invalid': courseRating.invalid}" type="number" class="form-contol">
+            
+            <div class="invalid-feedback">
+                <span>Course rating is required</span>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label" for="">Preço: </label>
+    
+        <div class="col-sm-10">
+            <textarea [(ngModel)]="course.description" required name="description" #courseDescription="ngModel" [ngClass]="{'is-invalid': courseDescription.invalid}" type="textarea" class="form-contol">
+            
+            <div class="invalid-feedback">
+                <span>Course description is required</span>
+            </div>
+        
+        </div>
+    </div>
+
+    <button [disabled]="courseForm.invalid" (click)="save()" class="btn btn-primary mr-2">Save</button>
+    <button [routerLink]="/courses" class="btn btn-secundary">Back</button>
+</form>
