@@ -6,7 +6,7 @@ import { Course } from "./course";
 })
 export class CourseService {
     
-    retrieveAll(): Course[] {
+    retrieveAll():  Course[] {
         return COURSES
     }
 
