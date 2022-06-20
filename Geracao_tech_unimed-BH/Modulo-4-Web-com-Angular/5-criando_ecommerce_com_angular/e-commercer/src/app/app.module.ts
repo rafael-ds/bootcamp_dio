@@ -8,6 +8,7 @@ import { NavComponent } from './component/shared/nav/nav.component';
 import { BookstoreAppComponent } from './component/bookstore-app/bookstore-app.component';
 import { FiltersComponent } from './component/bookstore-app/filters/filters.component';
 import { ProductListComponent } from './component/bookstore-app/product-list/product-list.component';
+import { ProductItemComponent } from './component/bookstore-app/product-list/product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ProductListComponent } from './component/bookstore-app/product-list/pro
     BookstoreAppComponent,
     FiltersComponent,
     ProductListComponent,
+    ProductItemComponent,
   ],
   imports: [
     BrowserModule
