@@ -1,1 +1,5 @@
-<p>product-list works!</p>
+<div class="row">
+    <div class="col-md-4" *bgFor="let l of livros">
+        <app-product-item [l]="l"></app-product-item>
+    </div>
+</div>

@@ -9,6 +9,8 @@ import { BookstoreAppComponent } from './component/bookstore-app/bookstore-app.c
 import { FiltersComponent } from './component/bookstore-app/filters/filters.component';
 import { ProductListComponent } from './component/bookstore-app/product-list/product-list.component';
 import { ProductItemComponent } from './component/bookstore-app/product-list/product-item/product-item.component';
+import { BookService } from './component/bookstore-app/product-list/produtct-list.component.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import { ProductItemComponent } from './component/bookstore-app/product-list/pro
     ProductItemComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [BookService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
