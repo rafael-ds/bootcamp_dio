@@ -5,6 +5,6 @@ export class Book {
     price!: number;
     quantity!: number;
     category!: string;
-    img!: string;
+    img!: string; 
 
 }
