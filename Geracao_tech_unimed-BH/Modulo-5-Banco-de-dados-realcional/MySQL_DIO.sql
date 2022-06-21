@@ -5,5 +5,10 @@ CREATE TABLE pessoas (
     nascimento DATE
 )
 
-INSERT INTO pessoas(nome, nascimento) VALUE('Rafael Diego', 'da Silva', '1923-08-19')
-INSERT INTO pessoas(nome, nascimento) VALUE('Raquel', 'Oliveira', '1963-03-09')
+INSERT INTO pessoa(nome, nascimento) VALUE('Rafael Diego', 'da Silva', '1923-08-19')
+INSERT INTO pessoa(nome, nascimento) VALUE('Raquel', 'Oliveira', '1963-03-09')
+
+
+SELECT * FROM pessoa
+SELECT nome FROM pessoa
+SELECT sobrenome FROM pessoa
