@@ -21,3 +21,7 @@ UPDATE pessoa SET nome='Rafael' WHERE id=1
 SELECT * from pessoa WHERE id=1; -- Verifica o dado
 
 DELETE from pessoa WHERE id=1 -- Deleta o dado
+
+-- Ordenando
+SELECT * FROM pessoa ORDER BY nome -- ordem crescente
+SELECT * FROM pessoa ORDER BY nome DESC-- ordem decrescente
