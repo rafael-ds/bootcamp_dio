@@ -25,3 +25,9 @@ DELETE from pessoa WHERE id=1 -- Deleta o dado
 -- Ordenando
 SELECT * FROM pessoa ORDER BY nome -- ordem crescente
 SELECT * FROM pessoa ORDER BY nome DESC-- ordem decrescente
+
+-- Criando nova coluna
+UPDATE pessoa SET genero='M' WHERE id=2; -- Depois da criação da coluna
+
+-- Agrupando e contado elementos
+SELECT COUNT(id), genero FROM pessoa GROUP BY genero
