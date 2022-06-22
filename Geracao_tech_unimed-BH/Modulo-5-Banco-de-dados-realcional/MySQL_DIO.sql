@@ -31,3 +31,28 @@ UPDATE pessoa SET genero='M' WHERE id=2; -- Depois da criação da coluna
 
 -- Agrupando e contado elementos
 SELECT COUNT(id), genero FROM pessoa GROUP BY genero
+
+
+
+
+-- *********** Introdução ao comand line ***********
+-- Criando uma nova tablea
+CREATE TABLE cursos(
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(10)
+);
+
+SHOW TABLES;
+
+INSERT INTO cursos(nome) VALUES('MySQL');
+INSERT INTO cursos(nome) VALUES('JavaScript');
+
+SELECT * from cursos;
+
+INSERT INTO cursos(nome) VALUES('HTML');
+
+SELECT * from cursos;
+UPDATE cursos SET nome='HTML 5' WHERE id=4;
+SELECT * from cursos;
+
+
