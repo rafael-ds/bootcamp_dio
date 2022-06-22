@@ -1,0 +1,6 @@
+CREATE TABLE pessoas (
+    id INT NOT NULL PRIMARY KEY AUTOINCREMENT,
+    nome VARCHAR(30) NOT NULL,
+    sobrenome VARCHAR(30) NOT NULL,
+    nascimento DATE
+)

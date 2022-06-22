@@ -33,10 +33,8 @@ UPDATE pessoa SET genero='M' WHERE id=2; -- Depois da criação da coluna
 SELECT COUNT(id), genero FROM pessoa GROUP BY genero
 
 
-
-
 -- *********** Introdução ao comand line ***********
--- Criando uma nova tablea
+-- Criando uma nova tabela
 CREATE TABLE cursos(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(10)
@@ -55,4 +53,44 @@ SELECT * from cursos;
 UPDATE cursos SET nome='HTML 5' WHERE id=4;
 SELECT * from cursos;
 
+-- Excluindo dados tabela
+SELECT * from cursos;
+INSERT INTO cursos(nome) VALUES('economia');
+SELECT * from cursos;
+DELETE from cursos WHERE nome='economia'
+SELECT * from cursos;
 
+-- Criando uma nova coluna
+ALTER TABLE cursos ADD carga_horaria INT(2);
+SELECT * from cursos;
+
+-- Atulizando as cargas horarias
+SELECT * from cursos;
+UPDATE cursos SET carga_horaria='8' WHERE nome='mysql';
+SELECT * from cursos;
+
+-- mysql> SELECT * from cursos;
+-- +----+------------+---------------+
+-- | id | nome       | carga_horaria |
+-- +----+------------+---------------+
+-- |  1 | MySQL      |             8 |
+-- |  2 | JavaScript |          NULL |
+-- |  3 | TypeScript |          NULL |
+-- |  4 | HTML 5     |          NULL |
+-- +----+------------+---------------+
+
+SELECT * from cursos;
+UPDATE cursos SET carga_horaria='48' WHERE nome='JavaScript';
+UPDATE cursos SET carga_horaria='24' WHERE nome='TypeScript';
+UPDATE cursos SET carga_horaria='12' WHERE nome='HTML 5';
+SELECT * from cursos;
+
+-- mysql> SELECT * from cursos;
+-- +----+------------+---------------+
+-- | id | nome       | carga_horaria |
+-- +----+------------+---------------+
+-- |  1 | MySQL      |             8 |
+-- |  2 | JavaScript |            48 |
+-- |  3 | TypeScript |            24 |
+-- |  4 | HTML 5     |            12 |
+-- +----+------------+---------------+
