@@ -152,3 +152,6 @@ DROP DATABASE bd_teste;
 -- | phpmyadmin         |
 -- | test               |
 -- +--------------------+
+
+
+-- *********** Modelos Relacionais ************
