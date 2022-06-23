@@ -214,7 +214,7 @@ UPDATE videos SET FK_seo=2 WHERE id_video=7;
 UPDATE videos SET FK_seo=3 WHERE id_video=2;
 UPDATE videos SET FK_seo=4 WHERE id_video=6;
 
--- select * from videos;
+select * from videos;
 -- +----------+----------+-------------------+--------+-------+----------+
 -- | id_video | FK_autor | titulo            | FK_seo | likes | dislikes |
 -- +----------+----------+-------------------+--------+-------+----------+
@@ -226,3 +226,47 @@ UPDATE videos SET FK_seo=4 WHERE id_video=6;
 -- |        6 |        4 | Mysql             |      4 |   148 |        2 |
 -- |        7 |        5 | Cano JJ           |      2 |    54 |        1 |
 -- +----------+----------+-------------------+--------+-------+----------+
+
+
+-- Realizando consultas com JOIN parte 2
+
+SELECT * FROM videos JOIN seo ON videos.FK_seo = seo.id_seo;
+-- +----------+----------+-------------------+--------+-------+----------+--------+-----------------+
+-- | id_video | FK_autor | titulo            | FK_seo | likes | dislikes | id_seo | categoria       |
+-- +----------+----------+-------------------+--------+-------+----------+--------+-----------------+
+-- |        1 |        1 | Ricky and Morty   |      1 |   530 |        5 |      1 | entreterimentos |
+-- |        2 |        1 | Pegando o osso    |      3 |   310 |       20 |      3 | pets            |
+-- |        3 |        1 | Porco aranha      |      1 |    83 |        1 |      1 | entreterimentos |
+-- |        4 |        2 | A teoria do acaso |      1 |   230 |       36 |      1 | entreterimentos |
+-- |        5 |        3 | Volcan S          |      2 |    54 |        1 |      2 | motos           |
+-- |        6 |        4 | Mysql             |      4 |   148 |        2 |      4 | programação     |
+-- |        7 |        5 | Cano JJ           |      2 |    54 |        1 |      2 | motos           |
+-- +----------+----------+-------------------+--------+-------+----------+--------+-----------------+
+
+SELECT videos.titulo, seo.categoria FROM videos JOIN seo ON videos.FK_seo = seo.id_seo;
+-- +-------------------+-----------------+
+-- | titulo            | categoria       |
+-- +-------------------+-----------------+
+-- | Ricky and Morty   | entreterimentos |
+-- | Pegando o osso    | pets            |
+-- | Porco aranha      | entreterimentos |
+-- | A teoria do acaso | entreterimentos |
+-- | Volcan S          | motos           |
+-- | Mysql             | programação     |
+-- | Cano JJ           | motos           |
+-- +-------------------+-----------------+
+
+SELECT videos.titulo, autor.nome, seo.categoria FROM videos JOIN seo ON videos.FK_seo = seo.id_seo
+JOIN autor ON videos.FK_autor = autor.id_autor;
+
+-- +-------------------+---------+-----------------+
+-- | titulo            | nome    | categoria       |
+-- +-------------------+---------+-----------------+
+-- | Ricky and Morty   | Kira    | entreterimentos |
+-- | Porco aranha      | Kira    | entreterimentos |
+-- | A teoria do acaso | Manu    | entreterimentos |
+-- | Volcan S          | Romer   | motos           |
+-- | Cano JJ           | Radis   | motos           |
+-- | Pegando o osso    | Kira    | pets            |
+-- | Mysql             | Sheldon | programação     |
+-- +-------------------+---------+-----------------+
