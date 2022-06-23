@@ -270,3 +270,118 @@ JOIN autor ON videos.FK_autor = autor.id_autor;
 -- | Pegando o osso    | Kira    | pets            |
 -- | Mysql             | Sheldon | programação     |
 -- +-------------------+---------+-----------------+
+
+
+--************ Play List *************
+
+CREATE TABLE playlist(
+    id_playlist INT NULL PRIMARY KEY AUTO_INCREMENT,
+    categoria VARCHAR(30)
+)
+
+ show tables;
+-- +----------------------------+
+-- | Tables_in_banco_modv_mysql |
+-- +----------------------------+
+-- | autor                      |
+-- | playlist                   |
+-- | seo                        |
+-- | videos                     |
+-- +----------------------------+
+
+INSERT INTO playlist(nome) VALUES('Serie');
+INSERT INTO playlist(nome) VALUES('Animação');
+INSERT INTO playlist(nome) VALUES('Veiculos');
+INSERT INTO playlist(nome) VALUES('Humor');
+INSERT INTO playlist(nome) VALUES('Cursos');
+
+select * from playlist;
+-- +-------------+----------+
+-- | id_playlist | nome     |
+-- +-------------+----------+
+-- |           1 | Serie    |
+-- |           2 | Animação |
+-- |           3 | Veiculos |
+-- |           4 | Humor    |
+-- |           5 | Cursos   |
+-- +-------------+----------+
+
+
+CREATE TABLE videos_playlist(
+    id_videos_playlist INT NULL PRIMARY KEY AUTO_INCREMENT,
+    categoria VARCHAR(30)
+)
+
+show tables;
+-- +----------------------------+
+-- | Tables_in_banco_modv_mysql |
+-- +----------------------------+
+-- | autor                      |
+-- | playlist                   |
+-- | seo                        |
+-- | videos                     |
+-- | videos_playlist            |
+-- +----------------------------+
+
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(1, 1);
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(4, 1);
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(3, 2);
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(5, 3);
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(7, 3);
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(2, 4);
+INSERT INTO videos_playlist(FK_videos, FK_playlist) VALUES(6, 5);
+
+select * from videos_playlist;
+-- +-------+-----------+-------------+
+-- | id_vp | FK_videos | FK_playlist |
+-- +-------+-----------+-------------+
+-- |     1 |         1 |           1 |
+-- |     2 |         4 |           1 |
+-- |     3 |         3 |           2 |
+-- |     4 |         5 |           3 |
+-- |     5 |         7 |           3 |
+-- |     6 |         2 |           4 |
+-- |     7 |         6 |           5 |
+-- +-------+-----------+-------------+
+
+SELECT * FROM playlist JOIN videos_playlist ON playlist.id_playlist = videos_playlist.FK_playlist;
+-- +-------------+----------+-------+-----------+-------------+
+-- | id_playlist | nome     | id_vp | FK_videos | FK_playlist |
+-- +-------------+----------+-------+-----------+-------------+
+-- |           1 | Serie    |     1 |         1 |           1 |
+-- |           1 | Serie    |     2 |         4 |           1 |
+-- |           2 | Animação |     3 |         3 |           2 |
+-- |           3 | Veiculos |     4 |         5 |           3 |
+-- |           3 | Veiculos |     5 |         7 |           3 |
+-- |           4 | Humor    |     6 |         2 |           4 |
+-- |           5 | Cursos   |     7 |         6 |           5 |
+-- +-------------+----------+-------+-----------+-------------+
+
+SELECT * FROM playlist JOIN videos_playlist ON playlist.id_playlist = videos_playlist.FK_playlist
+JOIN videos on videos.id_video = videos_playlist.FK_videos;
+
+-- +-------------+----------+-------+-----------+-------------+----------+----------+-------------------+--------+-------+----------+
+-- | id_playlist | nome     | id_vp | FK_videos | FK_playlist | id_video | FK_autor | titulo            | FK_seo | likes | dislikes |
+-- +-------------+----------+-------+-----------+-------------+----------+----------+-------------------+--------+-------+----------+
+-- |           1 | Serie    |     1 |         1 |           1 |        1 |        1 | Ricky and Morty   |      1 |   530 |        5 |
+-- |           1 | Serie    |     2 |         4 |           1 |        4 |        2 | A teoria do acaso |      1 |   230 |       36 |
+-- |           2 | Animação |     3 |         3 |           2 |        3 |        1 | Porco aranha      |      1 |    83 |        1 |
+-- |           3 | Veiculos |     4 |         5 |           3 |        5 |        3 | Volcan S          |      2 |    54 |        1 |
+-- |           3 | Veiculos |     5 |         7 |           3 |        7 |        5 | Cano JJ           |      2 |    54 |        1 |
+-- |           4 | Humor    |     6 |         2 |           4 |        2 |        1 | Pegando o osso    |      3 |   310 |       20 |
+-- |           5 | Cursos   |     7 |         6 |           5 |        6 |        4 | Mysql             |      4 |   148 |        2 |
+-- +-------------+----------+-------+-----------+-------------+----------+----------+-------------------+--------+-------+----------+
+
+SELECT playlist.nome, videos.titulo FROM playlist JOIN videos_playlist ON playlist.id_playlist = videos_playlist.FK_playlist
+JOIN videos on videos.id_video = videos_playlist.FK_videos;
+-- +----------+-------------------+
+-- | nome     | titulo            |
+-- +----------+-------------------+
+-- | Serie    | Ricky and Morty   |
+-- | Serie    | A teoria do acaso |
+-- | Animação | Porco aranha      |
+-- | Veiculos | Volcan S          |
+-- | Veiculos | Cano JJ           |
+-- | Humor    | Pegando o osso    |
+-- | Cursos   | Mysql             |
+-- +----------+-------------------+
