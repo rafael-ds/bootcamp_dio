@@ -1,0 +1,25 @@
+.cabecalho{
+    background-color: #031424;
+    padding: 10px;
+
+}
+
+.cabecalho .itens{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.itens .area-servico{
+    flex: 1;
+    height: auto;
+
+}
+
+
+
+
+
