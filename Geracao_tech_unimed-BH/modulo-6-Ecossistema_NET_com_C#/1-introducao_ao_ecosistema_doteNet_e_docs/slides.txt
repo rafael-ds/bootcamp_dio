@@ -1,0 +1,18 @@
+1- Apresentação do curso.
+https://docs.google.com/presentation/d/17_so96uxqkX2o_D9_6TzSUvP6aTvXlOf/edit#slide=id.p2
+
+2- Visão geral do ecossitema .NET.
+https://docs.google.com/presentation/d/1CxUS5QHCu4mqMiCoMqbMpGjUntIlpYSc/edit
+
+3- Sobre .NET framerwok, .NET Core e Xamarin
+https://docs.google.com/presentation/d/1FvIKgAR2AAA5q6CWxiUYCRt3UI88OqMP/edit
+
+
+4- Padrão de codificação .NET
+https://docs.google.com/presentation/d/1Vhee732MMbZIELQEWDx1CSwVyNinyYN1/edit
+
+5- Ferramentas e linguagens
+https://docs.google.com/presentation/d/1f99uXpF7vx12B1-RXewflQ_kZzc32mk-/edit#slide=id.gfd1c88b0cb_0_18
+
+6- O que é e quando usar?
+https://docs.google.com/presentation/d/16n61iXir2ywb-DW72H_Zjr7raqOjw_Ia/edit
