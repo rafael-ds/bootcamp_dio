@@ -14,6 +14,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { UsuarioComponent } from './component/shared/header/servicos/usuario/usuario.component';
 import { FavoritosComponent } from './component/shared/header/servicos/favoritos/favoritos.component';
 import { CarrinhoComponent } from './component/shared/header/servicos/carrinho/carrinho.component';
+import { AsideComponent } from './component/aside/aside.component';
+import { AreaBannerComponent } from './component/area-banner/area-banner.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { CarrinhoComponent } from './component/shared/header/servicos/carrinho/c
     UsuarioComponent,
     FavoritosComponent,
     CarrinhoComponent,
+    AsideComponent,
+    AreaBannerComponent,
   ],
   imports: [
     BrowserModule,
