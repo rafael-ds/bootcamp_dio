@@ -1,0 +1,15 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\bin\Debug\net6.0\DIO.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\bin\Debug\net6.0\DIO.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\bin\Debug\net6.0\DIO.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\bin\Debug\net6.0\DIO.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\bin\Debug\net6.0\DIO.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.csproj.AssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\refint\DIO.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\DIO.genruntimeconfig.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\3-primeiros_passos_com_dotNet\DIO\obj\Debug\net6.0\ref\DIO.dll
