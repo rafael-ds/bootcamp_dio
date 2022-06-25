@@ -1,0 +1,48 @@
+.campo-busca{
+    display: flex;
+    justify-content: center;
+    background-color: #FEC21E;
+    padding: 15px;
+}
+
+
+ p{
+    padding-top: 5px;
+    margin: auto;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.area-busca{
+    width: 70%;
+    margin-left: 20px;
+    display: flex;
+}
+
+.area-busca input{
+    width: 93%;
+    height: 100%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.area-busca input::placeholder{
+    padding-left: 20px;
+}
+
+.area-busca button{
+    border: none;
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    color: white;
+    background-color: #041E42;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
