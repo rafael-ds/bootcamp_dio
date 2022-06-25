@@ -1,12 +1,13 @@
 .itens{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
 
 }
 
 .itens > div{
-    padding: 20px;
+    padding: 10px;
     font-weight: 600;
+    margin-top: 15px;
 }

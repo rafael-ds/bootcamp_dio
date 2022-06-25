@@ -11,6 +11,9 @@ import { ServicosComponent } from './component/shared/header/servicos/servicos.c
 import { BuscaComponent } from './component/shared/header/busca/busca.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { UsuarioComponent } from './component/shared/header/servicos/usuario/usuario.component';
+import { FavoritosComponent } from './component/shared/header/servicos/favoritos/favoritos.component';
+import { CarrinhoComponent } from './component/shared/header/servicos/carrinho/carrinho.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MenuComponent,
     ServicosComponent,
     BuscaComponent,
+    UsuarioComponent,
+    FavoritosComponent,
+    CarrinhoComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+.material-symbols-outlined{
+    font-size: 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+p{
+    position: absolute;
+    z-index: 1;
+    color: black;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    padding: 0px;
+    background-color: #FEC21E;
+    text-align: center;
+    margin-top: -2px;
+    margin-left: 18px;
+}

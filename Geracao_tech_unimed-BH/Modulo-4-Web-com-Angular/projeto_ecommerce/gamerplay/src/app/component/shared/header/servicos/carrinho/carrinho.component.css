@@ -1,0 +1,49 @@
+
+.icone-usuario{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.material-symbols-outlined{
+    font-size: 2em;
+    position: relative;
+}
+
+.unidade{
+    position: absolute;
+    z-index: 1;
+    color: black;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    padding: 0px;
+    background-color: #FEC21E;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.acessar-conta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    padding: 5px;
+}
+
+.acessar-conta span:nth-child(1){
+    font-size: .8em;
+    margin-right: 32px;
+    text-align: end;
+    font-weight: 200;
+}
+
+.acessar-conta span:nth-child(2){
+    font-size: 1.2em;
+    margin-left: 5px;
+    margin-top: -8px;
+    text-align: end;
+    font-weight: 400;
+}
