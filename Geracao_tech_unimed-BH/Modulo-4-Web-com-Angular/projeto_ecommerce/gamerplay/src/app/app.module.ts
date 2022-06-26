@@ -23,6 +23,7 @@ import { BotoesComponent } from './component/shared/itens/botoes/botoes.componen
 import { ComprarComponent } from './component/shared/itens/botoes/comprar/comprar.component';
 import { EstrelasComponent } from './component/shared/itens/estrelas/estrelas.component';
 import { IndicadoresComponent } from './component/shared/itens/indicadores/indicadores.component';
+import { MaisVendidosComponent } from './component/mais-vendidos/mais-vendidos.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { IndicadoresComponent } from './component/shared/itens/indicadores/indic
     ComprarComponent,
     EstrelasComponent,
     IndicadoresComponent,
+    MaisVendidosComponent,
   ],
   imports: [
     BrowserModule,
