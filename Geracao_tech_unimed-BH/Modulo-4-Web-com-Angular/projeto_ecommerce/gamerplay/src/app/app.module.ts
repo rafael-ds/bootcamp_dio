@@ -26,6 +26,7 @@ import { IndicadoresComponent } from './component/shared/itens/indicadores/indic
 import { MaisVendidosComponent } from './component/mais-vendidos/mais-vendidos.component';
 import { CardProdutoComponent } from './component/mais-vendidos/card-produto/card-produto.component';
 import { AddCarrinhoComponent } from './component/servicos/add-carrinho/add-carrinho.component';
+import { MarcasComponent } from './component/marcas/marcas.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { AddCarrinhoComponent } from './component/servicos/add-carrinho/add-carr
     MaisVendidosComponent,
     CardProdutoComponent,
     AddCarrinhoComponent,
+    MarcasComponent,
   ],
   imports: [
     BrowserModule,

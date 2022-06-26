@@ -1,0 +1,54 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.lista-marca{
+    display: flex;
+    width: 100%;
+
+}
+
+.marca{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.marca a img{
+    width: 200px;
+}
+
+.marca a .nintendo, .marca a .playS{
+    width: 100px;
+
+}
+/* 
+.assus {
+    width: 200px;
+    margin-top: 30px;
+}
+
+.xbox{
+    width: 200px;
+
+}
+.razer{
+    width: 220px;
+    margin-top: 20px;
+
+}
+
+.nintendo{
+    width: 100px;
+    margin-top: 5px;
+
+}
+
+.playS{
+    width: 120px;
+    margin-top: 5px;
+} */
