@@ -1,0 +1,59 @@
+.itens{
+    height: 100%;
+
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.banner-um img{
+    position: relative;
+    z-index: -1;
+}
+
+.descricoes{
+    position: absolute;
+    width: 55%;
+    padding: 20px;
+    margin-left: 30px;
+
+}
+
+.sobre p:nth-child(1){
+    background-color: #FEC21E;
+    width: 50%;
+    padding: 2px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.sobre span{
+    font-size: 1.8em;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.sobre h2{
+    font-size: 1.8em;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.sobre .conteudo{
+    padding: 5px;
+
+}
+
+.descricoes button{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #0070DC;
+    color: white;
+}
