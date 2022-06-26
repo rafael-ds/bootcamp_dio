@@ -16,6 +16,13 @@ import { FavoritosComponent } from './component/shared/header/servicos/favoritos
 import { CarrinhoComponent } from './component/shared/header/servicos/carrinho/carrinho.component';
 import { AsideComponent } from './component/aside/aside.component';
 import { AreaBannerComponent } from './component/area-banner/area-banner.component';
+import { AreaOfertasComponent } from './component/area-ofertas/area-ofertas.component';
+import { DestaqueComponent } from './component/area-ofertas/destaque/destaque.component';
+import { OfertaFimSemanaComponent } from './component/area-ofertas/oferta-fim-semana/oferta-fim-semana.component';
+import { BotoesComponent } from './component/shared/itens/botoes/botoes.component';
+import { ComprarComponent } from './component/shared/itens/botoes/comprar/comprar.component';
+import { EstrelasComponent } from './component/shared/itens/estrelas/estrelas.component';
+import { IndicadoresComponent } from './component/shared/itens/indicadores/indicadores.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +38,13 @@ import { AreaBannerComponent } from './component/area-banner/area-banner.compone
     CarrinhoComponent,
     AsideComponent,
     AreaBannerComponent,
+    AreaOfertasComponent,
+    DestaqueComponent,
+    OfertaFimSemanaComponent,
+    BotoesComponent,
+    ComprarComponent,
+    EstrelasComponent,
+    IndicadoresComponent,
   ],
   imports: [
     BrowserModule,

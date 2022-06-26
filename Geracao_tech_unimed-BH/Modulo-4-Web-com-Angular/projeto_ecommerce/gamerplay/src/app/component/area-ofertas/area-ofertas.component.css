@@ -1,0 +1,16 @@
+.itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px;
+    width: 100%;
+    height: auto;
+}
+
+.destaque{
+    flex: 1;
+}
+
+.fim-semana{
+    flex: 3;
+}
