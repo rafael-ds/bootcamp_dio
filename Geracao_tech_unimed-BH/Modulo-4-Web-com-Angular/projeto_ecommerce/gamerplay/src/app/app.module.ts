@@ -24,6 +24,8 @@ import { ComprarComponent } from './component/shared/itens/botoes/comprar/compra
 import { EstrelasComponent } from './component/shared/itens/estrelas/estrelas.component';
 import { IndicadoresComponent } from './component/shared/itens/indicadores/indicadores.component';
 import { MaisVendidosComponent } from './component/mais-vendidos/mais-vendidos.component';
+import { CardProdutoComponent } from './component/mais-vendidos/card-produto/card-produto.component';
+import { AddCarrinhoComponent } from './component/servicos/add-carrinho/add-carrinho.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,8 @@ import { MaisVendidosComponent } from './component/mais-vendidos/mais-vendidos.c
     EstrelasComponent,
     IndicadoresComponent,
     MaisVendidosComponent,
+    CardProdutoComponent,
+    AddCarrinhoComponent,
   ],
   imports: [
     BrowserModule,
