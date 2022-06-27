@@ -29,6 +29,7 @@ import { AddCarrinhoComponent } from './component/servicos/add-carrinho/add-carr
 import { MarcasComponent } from './component/marcas/marcas.component';
 import { BoletimComponent } from './component/shared/footer/boletim/boletim.component';
 import { SociaisComponent } from './component/shared/footer/sociais/sociais.component';
+import { MenuFooterComponent } from './component/shared/footer/menu-footer/menu-footer.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { SociaisComponent } from './component/shared/footer/sociais/sociais.comp
     MarcasComponent,
     BoletimComponent,
     SociaisComponent,
+    MenuFooterComponent,
   ],
   imports: [
     BrowserModule,
