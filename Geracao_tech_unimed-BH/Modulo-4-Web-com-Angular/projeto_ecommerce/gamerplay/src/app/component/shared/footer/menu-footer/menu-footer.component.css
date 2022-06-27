@@ -1,0 +1,9 @@
+.item{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #F7F8F9;
+    padding: 20px;
+}

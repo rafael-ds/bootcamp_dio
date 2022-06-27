@@ -30,6 +30,9 @@ import { MarcasComponent } from './component/marcas/marcas.component';
 import { BoletimComponent } from './component/shared/footer/boletim/boletim.component';
 import { SociaisComponent } from './component/shared/footer/sociais/sociais.component';
 import { MenuFooterComponent } from './component/shared/footer/menu-footer/menu-footer.component';
+import { CategoriasComponent } from './component/shared/footer/menu-footer/categorias/categorias.component';
+import { AjudaComponent } from './component/shared/footer/menu-footer/ajuda/ajuda.component';
+import { SobreComponent } from './component/shared/footer/menu-footer/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +62,9 @@ import { MenuFooterComponent } from './component/shared/footer/menu-footer/menu-
     BoletimComponent,
     SociaisComponent,
     MenuFooterComponent,
+    CategoriasComponent,
+    AjudaComponent,
+    SobreComponent,
   ],
   imports: [
     BrowserModule,
