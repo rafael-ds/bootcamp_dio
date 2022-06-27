@@ -27,6 +27,8 @@ import { MaisVendidosComponent } from './component/mais-vendidos/mais-vendidos.c
 import { CardProdutoComponent } from './component/mais-vendidos/card-produto/card-produto.component';
 import { AddCarrinhoComponent } from './component/servicos/add-carrinho/add-carrinho.component';
 import { MarcasComponent } from './component/marcas/marcas.component';
+import { BoletimComponent } from './component/shared/footer/boletim/boletim.component';
+import { SociaisComponent } from './component/shared/footer/sociais/sociais.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,8 @@ import { MarcasComponent } from './component/marcas/marcas.component';
     CardProdutoComponent,
     AddCarrinhoComponent,
     MarcasComponent,
+    BoletimComponent,
+    SociaisComponent,
   ],
   imports: [
     BrowserModule,
