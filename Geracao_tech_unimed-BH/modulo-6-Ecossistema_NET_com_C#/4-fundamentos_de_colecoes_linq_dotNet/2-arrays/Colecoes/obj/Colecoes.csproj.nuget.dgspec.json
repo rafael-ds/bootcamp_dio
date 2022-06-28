@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\Colecoes\\Colecoes.csproj": {}
+    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\colecoes\\Colecoes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\Colecoes\\Colecoes.csproj": {
+    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\colecoes\\Colecoes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\Colecoes\\Colecoes.csproj",
+        "projectUniqueName": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\colecoes\\Colecoes.csproj",
         "projectName": "Colecoes",
-        "projectPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\Colecoes\\Colecoes.csproj",
+        "projectPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\colecoes\\Colecoes.csproj",
         "packagesPath": "C:\\Users\\RadiDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\Colecoes\\obj\\",
+        "outputPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\4-fundamentos_de_colecoes_linq_dotNet\\2-arrays\\colecoes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RadiDev\\AppData\\Roaming\\NuGet\\NuGet.Config"
