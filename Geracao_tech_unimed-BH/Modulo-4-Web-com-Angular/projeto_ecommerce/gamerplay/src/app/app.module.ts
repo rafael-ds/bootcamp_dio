@@ -33,6 +33,7 @@ import { MenuFooterComponent } from './component/shared/footer/menu-footer/menu-
 import { CategoriasComponent } from './component/shared/footer/menu-footer/categorias/categorias.component';
 import { AjudaComponent } from './component/shared/footer/menu-footer/ajuda/ajuda.component';
 import { SobreComponent } from './component/shared/footer/menu-footer/sobre/sobre.component';
+import { ToggleComponent } from './component/shared/header/toggle/toggle.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { SobreComponent } from './component/shared/footer/menu-footer/sobre/sobr
     CategoriasComponent,
     AjudaComponent,
     SobreComponent,
+    ToggleComponent,
   ],
   imports: [
     BrowserModule,

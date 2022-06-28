@@ -15,3 +15,14 @@ h1{
     margin-top: 14px;
     font-size: 28px;
 }
+
+@media (max-width: 575.98px) { 
+    .logo{
+        justify-content: center;
+        align-items: center;
+    }       
+    .logo h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

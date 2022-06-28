@@ -1,0 +1,16 @@
+.material-symbols-outlined{
+    font-size: 3em;
+    padding: 20px;
+}
+
+.toggle{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop{
+    display: none;
+}
