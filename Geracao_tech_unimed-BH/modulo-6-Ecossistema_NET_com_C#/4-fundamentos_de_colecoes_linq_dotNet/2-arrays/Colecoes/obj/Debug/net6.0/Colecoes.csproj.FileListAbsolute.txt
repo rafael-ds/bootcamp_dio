@@ -1,0 +1,15 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\bin\Debug\net6.0\Colecoes.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\bin\Debug\net6.0\Colecoes.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\bin\Debug\net6.0\Colecoes.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\bin\Debug\net6.0\Colecoes.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\bin\Debug\net6.0\Colecoes.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.csproj.AssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\refint\Colecoes.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\Colecoes.genruntimeconfig.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\4-fundamentos_de_colecoes_linq_dotNet\2-arrays\colecoes\obj\Debug\net6.0\ref\Colecoes.dll
