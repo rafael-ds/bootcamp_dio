@@ -70,7 +70,7 @@ import { SobreComponent } from './component/shared/footer/menu-footer/sobre/sobr
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

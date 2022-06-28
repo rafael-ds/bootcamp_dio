@@ -1,9 +1,19 @@
 .item{
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     background-color: #F7F8F9;
     padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.categorias, .ajuda, .sobre{
+    width: 30%;
 }

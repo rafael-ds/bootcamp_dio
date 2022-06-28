@@ -1,0 +1,59 @@
+.itens-sociais{
+    padding: 20px;
+}
+
+.app-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-sociais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-sociais .logo img{
+    width: 80px;
+    padding: 10px;
+}
+
+.logo-sociais .logo a span{
+    color: #041E42;
+    font-size: 2em;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.app-container .autor p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #041E42;
+}
+
+.app-container .autor p a{
+    color: #FEC21E;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sociais img{
+    width: 30px;
+    margin-left: 10px;
+}

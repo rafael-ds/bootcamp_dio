@@ -38,4 +38,31 @@ a{
 }
 
 
+/*Estilo do menu do roda pé*/
+.itens-menu{
+    padding: 20px;
+}
+
+.itens-menu h4{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.itens-menu ul{
+    list-style: none;
+    width: 100%;
+    display: inline;
+    
+}
+
+.itens-menu ul li{
+    padding: 5px;
+}
+
+.itens-menu ul li a{
+    width: 100%;
+    color: #818EA0;
+    font-size: 1.2em;
+}
+
 
