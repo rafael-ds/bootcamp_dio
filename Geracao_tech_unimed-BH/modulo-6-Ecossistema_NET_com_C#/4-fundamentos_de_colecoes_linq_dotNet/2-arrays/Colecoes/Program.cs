@@ -24,18 +24,39 @@
 
 
 // Array contem 4 linhas e 2 colunas
-int[,] matriz = new int[4, 2]{
-    {4, 8},  // linha 0
-    {5, 10}, // linha 1
-    {6, 12}, // linha 2
-    {8, 16}, // linha 3
-};
+// int[,] matriz = new int[4, 2]{
+//     {4, 8},  // linha 0
+//     {5, 10}, // linha 1
+//     {6, 12}, // linha 2
+//     {8, 16}, // linha 3
+// };
 
-for (int linhas = 0; linhas < matriz.GetLength(0); linhas++)
+// for (int linhas = 0; linhas < matriz.GetLength(0); linhas++)
+// {
+//     for (int colunas = 0; colunas < matriz.GetLength(1); colunas++) 
+//     {
+//         System.Console.WriteLine(matriz[linhas, colunas]);
+//     }
+
+// }
+
+
+//* ************ Copiando  Arrayss ***********
+
+int[] array = new int[5] { 6,8,1,12,33 };
+int[] arrayCopia = new int[10];
+
+System.Console.WriteLine("Array original");
+for (int i = 0; i < array.Length; i++)
 {
-    for (int colunas = 0; colunas < matriz.GetLength(1); colunas++) 
-    {
-        System.Console.WriteLine(matriz[linhas, colunas]);
-    }
+    System.Console.WriteLine(array[i]);
+}
+
+System.Console.WriteLine();
+System.Console.WriteLine("Array copia");
+Array.Copy(array, arrayCopia, array.Length);
+for (int i = 0; i < arrayCopia.Length; i++)
+{
     
+    System.Console.WriteLine(arrayCopia[i]);
 }

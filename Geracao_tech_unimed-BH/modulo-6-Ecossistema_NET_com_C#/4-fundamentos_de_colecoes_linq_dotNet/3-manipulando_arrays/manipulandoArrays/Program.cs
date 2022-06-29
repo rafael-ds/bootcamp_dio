@@ -1,15 +1,12 @@
-﻿int[,] matriz = new int[4, 2]{
-    {4, 8},  // linha 0
-    {5, 10}, // linha 1
-    {6, 12}, // linha 2
-    {8, 16}, // linha 3
-};
+﻿using manipulandoArrays.Helper;
 
-for (int linhas = 0; linhas < matriz.GetLength(0); linhas++)
-{
-    for (int colunas = 0; colunas < matriz.GetLength(1); colunas++) 
-    {
-        System.Console.WriteLine(matriz[linhas, colunas]);
-    }
-    
-}
+op = OperacoesArrays();
+int[] arrays = new int[5] { 5, 23, 81, 8, 41 };
+
+System.Console.WriteLine("Array Original");
+op.ImprimirArray(arrays);
+
+op.OrdenarBubbleSort(ref arrays);
+
+System.Console.WriteLine("Array Ordenado");
+op.ImprimirArray(arrays);
