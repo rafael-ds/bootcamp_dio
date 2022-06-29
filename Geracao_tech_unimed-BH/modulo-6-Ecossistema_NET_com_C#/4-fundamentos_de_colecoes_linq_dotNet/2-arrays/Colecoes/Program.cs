@@ -63,16 +63,37 @@
 
 //* ************ Verifiando Valores exitente no array ***********
 
-int[] array = new int[5] { 6,8,1,12,33 };
 
-int valorBuscado = 38;
-bool exite =  Array.Exists(array, elemento => elemento == valorBuscado);
+// int valorBuscado = 38;
+// bool exite =  Array.Exists(array, elemento => elemento == valorBuscado);
 
-System.Console.WriteLine();
-if(exite){
-    System.Console.WriteLine($"O valor {valorBuscado} existe no array");
-} else {
-    System.Console.WriteLine($"O valor {valorBuscado} não existe no array");
+// System.Console.WriteLine();
+// if(exite){
+//     System.Console.WriteLine($"O valor {valorBuscado} existe no array");
+// } else {
+//     System.Console.WriteLine($"O valor {valorBuscado} não existe no array");
+
+// }
+// System.Console.WriteLine();
+
+
+
+//* ************ Verifiando todos elementos no array ***********
+
+int[] array = new int[5] { 6,8,15,12,33 };
+
+int valor = 3;
+
+bool maiorQue = Array.TrueForAll(array, e => e > valor);
+
+if(maiorQue){
+    System.Console.WriteLine();
+    System.Console.WriteLine($"Todos os valores do array são maiores que {valor}");
+    System.Console.WriteLine();
+}else{
+    System.Console.WriteLine();
+    System.Console.WriteLine($"Existe valores no array que não são maiores que {valor}");
+    System.Console.WriteLine();
+
 
 }
-System.Console.WriteLine();
