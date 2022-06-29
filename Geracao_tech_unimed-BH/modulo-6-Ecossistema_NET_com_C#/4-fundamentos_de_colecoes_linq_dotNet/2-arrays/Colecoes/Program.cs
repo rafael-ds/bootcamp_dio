@@ -122,19 +122,31 @@
 
 //* ************ Encontrando um indice no array ***********
 
+// int valor = 33;
+
+// int index = Array.IndexOf(array, valor);
+
+// if(index == -1){
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"O numero {valor} não existe no array, por isso não é possuvel encontrar sua posição");
+//     System.Console.WriteLine();
+// }
+// else {
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"O número {valor} esta na posição {index} do array");
+//     System.Console.WriteLine();
+// }
+
+
+//* ************ Redimensionando um array ***********
+
+
 int[] array = new int[5] { 6,8,15,12,33 };
-int valor = 33;
 
-int index = Array.IndexOf(array, valor);
+System.Console.WriteLine();
+System.Console.WriteLine($"Capacidade atual do array: {array.Length}");
+System.Console.WriteLine();
 
-if(index == -1){
-    System.Console.WriteLine();
-    System.Console.WriteLine($"O numero {valor} não existe no array, por isso não é possuvel encontrar sua posição");
-    System.Console.WriteLine();
-}
-else {
-    System.Console.WriteLine();
-    System.Console.WriteLine($"O número {valor} esta na posição {index} do array");
-    System.Console.WriteLine();
-}
-
+Array.Resize(ref array, array.Length * 2);    
+System.Console.WriteLine($"Capacidade apois o redimensionamento: {array.Length}");
+System.Console.WriteLine();
