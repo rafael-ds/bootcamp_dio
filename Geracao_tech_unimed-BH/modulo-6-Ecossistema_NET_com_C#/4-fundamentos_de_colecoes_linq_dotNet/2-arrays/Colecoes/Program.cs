@@ -141,12 +141,23 @@
 //* ************ Redimensionando um array ***********
 
 
+// System.Console.WriteLine();
+// System.Console.WriteLine($"Capacidade atual do array: {array.Length}");
+// System.Console.WriteLine();
+
+// Array.Resize(ref array, array.Length * 2);    
+// System.Console.WriteLine($"Capacidade apois o redimensionamento: {array.Length}");
+// System.Console.WriteLine();
+
+
+
+//* ************ Convertendo um array ***********
+
 int[] array = new int[5] { 6,8,15,12,33 };
 
-System.Console.WriteLine();
-System.Console.WriteLine($"Capacidade atual do array: {array.Length}");
-System.Console.WriteLine();
+string[] conversao = Array.ConvertAll(array, e => e.ToString());
 
-Array.Resize(ref array, array.Length * 2);    
-System.Console.WriteLine($"Capacidade apois o redimensionamento: {array.Length}");
-System.Console.WriteLine();
+for (int i = 0; i < conversao.Length; i++)
+{
+    System.Console.WriteLine(conversao[i]);
+}
