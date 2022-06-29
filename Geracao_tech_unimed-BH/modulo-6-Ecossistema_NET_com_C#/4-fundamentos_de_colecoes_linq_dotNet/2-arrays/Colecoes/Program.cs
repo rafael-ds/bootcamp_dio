@@ -80,20 +80,43 @@
 
 //* ************ Verifiando todos elementos no array ***********
 
+
+// int valor = 3;
+
+// bool maiorQue = Array.TrueForAll(array, e => e > valor);
+
+// if(maiorQue){
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"Todos os valores do array são maiores que {valor}");
+//     System.Console.WriteLine();
+// }else{
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"Existe valores no array que não são maiores que {valor}");
+//     System.Console.WriteLine();
+
+
+// }
+
+
+//* ************ Encontrando um elementos no array ***********
+
+
 int[] array = new int[5] { 6,8,15,12,33 };
+int valor = 12;
 
-int valor = 3;
+int busca = Array.Find(array, e => e == valor);
 
-bool maiorQue = Array.TrueForAll(array, e => e > valor);
+if(busca == 0){
 
-if(maiorQue){
     System.Console.WriteLine();
-    System.Console.WriteLine($"Todos os valores do array são maiores que {valor}");
-    System.Console.WriteLine();
-}else{
-    System.Console.WriteLine();
-    System.Console.WriteLine($"Existe valores no array que não são maiores que {valor}");
+    System.Console.WriteLine($"O numero {valor} não existe no array");
     System.Console.WriteLine();
 
+} 
+else {
+    
+    System.Console.WriteLine();
+    System.Console.WriteLine($"O numero {valor} existe no array");
+    System.Console.WriteLine();
 
 }
