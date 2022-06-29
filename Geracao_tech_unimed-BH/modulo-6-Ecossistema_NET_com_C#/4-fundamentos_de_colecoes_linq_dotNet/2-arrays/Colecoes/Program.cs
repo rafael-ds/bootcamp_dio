@@ -43,20 +43,36 @@
 
 //* ************ Copiando  Arrayss ***********
 
-int[] array = new int[5] { 6,8,1,12,33 };
-int[] arrayCopia = new int[10];
+// int[] arrayCopia = new int[10];
 
-System.Console.WriteLine("Array original");
-for (int i = 0; i < array.Length; i++)
-{
-    System.Console.WriteLine(array[i]);
-}
+// System.Console.WriteLine("Array original");
+// for (int i = 0; i < array.Length; i++)
+// {
+//     System.Console.WriteLine(array[i]);
+// }
+
+// System.Console.WriteLine();
+// System.Console.WriteLine("Array copia");
+// Array.Copy(array, arrayCopia, array.Length);
+// for (int i = 0; i < arrayCopia.Length; i++)
+// {
+    
+//     System.Console.WriteLine(arrayCopia[i]);
+// }
+
+
+//* ************ Verifiando Valores exitente no array ***********
+
+int[] array = new int[5] { 6,8,1,12,33 };
+
+int valorBuscado = 38;
+bool exite =  Array.Exists(array, elemento => elemento == valorBuscado);
 
 System.Console.WriteLine();
-System.Console.WriteLine("Array copia");
-Array.Copy(array, arrayCopia, array.Length);
-for (int i = 0; i < arrayCopia.Length; i++)
-{
-    
-    System.Console.WriteLine(arrayCopia[i]);
+if(exite){
+    System.Console.WriteLine($"O valor {valorBuscado} existe no array");
+} else {
+    System.Console.WriteLine($"O valor {valorBuscado} não existe no array");
+
 }
+System.Console.WriteLine();
