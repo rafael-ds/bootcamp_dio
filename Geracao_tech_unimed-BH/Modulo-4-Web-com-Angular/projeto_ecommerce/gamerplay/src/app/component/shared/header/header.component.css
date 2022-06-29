@@ -10,24 +10,30 @@
     justify-content: space-between;
 }
 
-.toggle{
-    display: none;
-}
-
 .itens .area-servico{
     flex: 2;
     height: auto;
 }
+
+.servicos-mobile, .menu-mobile{
+    display: none;
+}
+
+.toggle{
+    display: none;
+}
+
 
 
 @media (max-width: 575.98px) {        
     .menu-desk, .area-servico{
         display: none;
     }
-
-    .toggle{
-        display: block;
+    .servicos-mobile, .menu-mobile{
+        display: inline-block;
     }
+
+
 }
 /*@media (min-width: 576px) and (max-width: 767.98px) { ... }
 

@@ -13,3 +13,16 @@
 .fim-semana{
     flex: 3;
 }
+
+
+@media (max-width: 575.98px) { 
+    .itens{
+        flex-direction: column;
+    }
+
+    .destaque, .fim-semana{
+        flex: none;
+        margin-bottom: 10px;
+        
+    }
+}

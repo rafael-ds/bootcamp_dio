@@ -46,3 +46,25 @@
     text-align: end;
     font-weight: 400;
 }
+
+@media (max-width: 575.98px) {        
+    .material-symbols-outlined{
+        font-size: 1.5em;
+    }
+
+    .acessar-conta span:nth-child(1){
+        margin-right: 0px;
+    }
+
+    .acessar-conta span:nth-child(2){
+        font-size: 1em;
+    }
+
+    .unidade{
+       
+        height: 15px;
+        width: 15px;
+        padding-bottom: 18px;        
+        margin-left: 12px;
+    }
+}

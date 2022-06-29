@@ -17,3 +17,27 @@ p{
     margin-top: -2px;
     margin-left: 18px;
 }
+
+@media (max-width: 575.98px) {        
+    .material-symbols-outlined{
+        font-size: 1.5em;
+        padding: 5px;
+    }
+
+    .acessar-conta span:nth-child(1){
+        margin-right: 18px;
+    }
+
+    .acessar-conta span:nth-child(2){
+        font-size: 1em;
+        margin-left: 0;
+    }
+
+    .unidade{
+       
+        height: 15px;
+        width: 15px;
+        padding-bottom: 18px;        
+        margin-left: 20px;
+    }
+}

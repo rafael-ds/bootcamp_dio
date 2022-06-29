@@ -1,11 +1,13 @@
-<div class="toggle">
-    <span class="material-symbols-outlined" toggle (click)="clicando()">
-        menu
+<div class="toggle" (click)="toggle()">
+    <span class="material-symbols-outlined">
+        arrow_drop_down
     </span>
 
-    <div class="dropdown">
+    <div class="dropdown" [ngStyle]="{'display': display}">
         <div class="drop">
-            menu
+            <div class="aside">
+                <app-aside></app-aside>
+            </div>
         </div>
-    </div>
+    </div> 
 </div>

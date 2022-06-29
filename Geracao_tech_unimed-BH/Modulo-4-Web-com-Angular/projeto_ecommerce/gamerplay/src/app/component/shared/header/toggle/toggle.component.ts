@@ -6,11 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./toggle.component.css']
 })
 export class ToggleComponent implements OnInit {
-  
+
   constructor() { }
+
+  display = 'none'
 
   ngOnInit(): void {
 
+  }
+
+  toggle(){    
+    if(this.display == 'block'){
+      this.display = 'none' 
+    }
+    else{
+      this.display = 'block'
+    }
   }
 
 }

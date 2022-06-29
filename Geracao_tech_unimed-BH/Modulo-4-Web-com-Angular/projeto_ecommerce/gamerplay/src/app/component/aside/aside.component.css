@@ -78,3 +78,15 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+  @media (max-width: 575.98px) {     
+    .aside ul{
+        list-style: circle;
+
+    }
+  }
+
+
+
+  

@@ -3,11 +3,18 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-
 }
 
 .itens > div{
     padding: 10px;
     font-weight: 600;
     margin-top: 15px;
+}
+
+
+@media (max-width: 575.98px) {        
+    .itens > div{
+        padding: 0px;
+        margin-top: 0px;
+    }
 }

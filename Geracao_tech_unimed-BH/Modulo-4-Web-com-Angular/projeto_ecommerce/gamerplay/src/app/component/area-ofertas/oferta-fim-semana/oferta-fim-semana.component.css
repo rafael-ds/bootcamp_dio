@@ -76,3 +76,46 @@ img{
     padding: 20px;
 }
 
+
+
+@media (max-width: 575.98px) { 
+    .linha-1{
+        flex-direction: column;
+    }
+
+    .bloco-1, .bloco-2{
+        margin-bottom: 20px;
+        border: solid 1px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .linha-2{
+        margin-left: 0;
+        background-color: #ECEDEA;
+        padding: 10px;
+        flex: 0;
+
+        justify-content: space-between;
+    }
+
+    .linha-2 > div p{
+        font-size: .8em;
+    }
+
+    .linha-2 > div span{
+        font-size: .8em;
+    }
+
+    .linha-2 > div h3{
+        font-size: 1.2em;
+    }
+
+    .linha-2 img{
+        width: 160px;
+    }
+
+    
+
+
+}

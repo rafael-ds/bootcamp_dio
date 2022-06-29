@@ -6,11 +6,15 @@
 .toggle{
     display: flex;
     flex-direction: column;
-    border: solid 1px;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 .drop{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
 }
