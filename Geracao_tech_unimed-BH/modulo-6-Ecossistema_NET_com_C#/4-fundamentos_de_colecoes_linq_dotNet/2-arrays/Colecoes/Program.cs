@@ -101,22 +101,40 @@
 //* ************ Encontrando um elementos no array ***********
 
 
+
+// int busca = Array.Find(array, e => e == valor);
+
+// if(busca == 0){
+
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"O numero {valor} não existe no array");
+//     System.Console.WriteLine();
+
+// } 
+// else {
+
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"O numero {valor} existe no array");
+//     System.Console.WriteLine();
+
+// }
+
+
+//* ************ Encontrando um indice no array ***********
+
 int[] array = new int[5] { 6,8,15,12,33 };
-int valor = 12;
+int valor = 33;
 
-int busca = Array.Find(array, e => e == valor);
+int index = Array.IndexOf(array, valor);
 
-if(busca == 0){
-
+if(index == -1){
     System.Console.WriteLine();
-    System.Console.WriteLine($"O numero {valor} não existe no array");
+    System.Console.WriteLine($"O numero {valor} não existe no array, por isso não é possuvel encontrar sua posição");
     System.Console.WriteLine();
-
-} 
-else {
-    
-    System.Console.WriteLine();
-    System.Console.WriteLine($"O numero {valor} existe no array");
-    System.Console.WriteLine();
-
 }
+else {
+    System.Console.WriteLine();
+    System.Console.WriteLine($"O número {valor} esta na posição {index} do array");
+    System.Console.WriteLine();
+}
+
