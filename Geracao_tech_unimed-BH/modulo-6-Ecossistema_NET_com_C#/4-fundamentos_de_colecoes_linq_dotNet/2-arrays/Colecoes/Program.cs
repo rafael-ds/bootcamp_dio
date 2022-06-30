@@ -176,10 +176,20 @@ estados.Add("MG");
 
 //* ************ Removendo elementos de uma lista ***********
 
-estados.Remove("MG");
+// estados.Remove("MG");
+
+
+//* ************ Adicionando coleções a uma lista ***********
+string[] estadosArray = new string[2] {"RS", "BA"};
+
+estados.AddRange(estadosArray);
+
 
 System.Console.WriteLine($"Quantidade atual de elementos na lista: {estados.Count}");
 foreach (var item in estados)
 {
     System.Console.WriteLine(item);
 }
+
+
+//* ************ Adicionando elemento em um indice informado a lista ***********
