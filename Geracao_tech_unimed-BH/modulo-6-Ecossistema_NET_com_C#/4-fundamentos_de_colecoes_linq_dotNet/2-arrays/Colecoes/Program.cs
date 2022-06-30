@@ -167,11 +167,11 @@
 
 // using System.Collections.Generic; 
 
-List<string> estados = new List<string>();
-estados.Add("RJ");
-estados.Add("SC");
-estados.Add("SP");
-estados.Add("MG");
+// List<string> estados = new List<string>();
+// estados.Add("RJ");
+// estados.Add("SC");
+// estados.Add("SP");
+// estados.Add("MG");
 
 
 //* ************ Removendo elementos de uma lista ***********
@@ -220,12 +220,12 @@ estados.Add("MG");
 //* ************ Stack ***********
 
 
-Stack<string> pilhas = new Stack<string>();
-pilhas.Push("HTML");
-pilhas.Push("CSS");
-pilhas.Push("Js");
-pilhas.Push("Ts");
-pilhas.Push("Angular");
+// Stack<string> pilhas = new Stack<string>();
+// pilhas.Push("HTML");
+// pilhas.Push("CSS");
+// pilhas.Push("Js");
+// pilhas.Push("Ts");
+// pilhas.Push("Angular");
 
 // while(pilhas.Count > 0){
 //     System.Console.WriteLine();
@@ -235,3 +235,17 @@ pilhas.Push("Angular");
 
 // }
 
+
+
+//* ************ Dicionário ***********
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("RJ", "Rio de Janeiro");
+estados.Add("SC", "Chapecó");
+estados.Add("SP", "São Paulo");
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
+}
