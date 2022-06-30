@@ -185,13 +185,34 @@ estados.Add("MG");
 // estados.AddRange(estadosArray);
 
 
-
-
 //* ************ Adicionando elemento em um indice informado a lista ***********
-estados.Insert(2, "ES");
+// estados.Insert(2, "ES");
 
-System.Console.WriteLine($"Quantidade atual de elementos na lista: {estados.Count}");
-foreach (var item in estados)
-{
-    System.Console.WriteLine(item);
+// System.Console.WriteLine($"Quantidade atual de elementos na lista: {estados.Count}");
+// foreach (var item in estados)
+// {
+//     System.Console.WriteLine(item);
+// }
+
+
+
+//* ************ Queue ***********
+
+Queue<string> fila = new Queue<string>();
+
+fila.Enqueue("Manu");
+fila.Enqueue("Kira");
+fila.Enqueue("Tobias");
+
+System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+System.Console.WriteLine();
+
+while(fila.Count > 0){
+    System.Console.WriteLine($"Vez de: {fila.Peek()}");
+    System.Console.WriteLine($"{fila.Dequeue()} atendido");
+    System.Console.WriteLine();
 }
+
+System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+System.Console.WriteLine();
+
