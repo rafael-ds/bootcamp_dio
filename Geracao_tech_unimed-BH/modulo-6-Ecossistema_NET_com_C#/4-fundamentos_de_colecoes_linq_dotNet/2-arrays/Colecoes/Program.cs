@@ -245,6 +245,42 @@ estados.Add("RJ", "Rio de Janeiro");
 estados.Add("SC", "Chapecó");
 estados.Add("SP", "São Paulo");
 
+// foreach (KeyValuePair<string, string> item in estados)
+// {
+//     System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
+// }
+
+//* ************ Acesando um item do dicionario  ***********
+
+// string cidade = "RJ";
+// System.Console.WriteLine(estados[cidade]);
+
+
+
+//* ************ Atualizando um item do dicionario  ***********
+
+// System.Console.WriteLine("Sem modificações");
+// string cidade = "RJ";
+// System.Console.WriteLine(estados[cidade]);
+
+// estados[cidade] = "Petropolis";
+// System.Console.WriteLine("Com modificações");
+// System.Console.WriteLine(estados[cidade]);
+
+
+//* ************ Removendo um item do dicionario  ***********
+
+System.Console.WriteLine("Atual");
+foreach (KeyValuePair<string, string> item in estados)
+{
+    System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
+}
+
+estados.Remove("SP");
+
+System.Console.WriteLine();
+System.Console.WriteLine("Atualizado");
+
 foreach (KeyValuePair<string, string> item in estados)
 {
     System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
