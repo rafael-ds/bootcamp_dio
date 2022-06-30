@@ -198,21 +198,40 @@ estados.Add("MG");
 
 //* ************ Queue ***********
 
-Queue<string> fila = new Queue<string>();
+// Queue<string> fila = new Queue<string>();
 
-fila.Enqueue("Manu");
-fila.Enqueue("Kira");
-fila.Enqueue("Tobias");
+// fila.Enqueue("Manu");
+// fila.Enqueue("Kira");
+// fila.Enqueue("Tobias");
 
-System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
-System.Console.WriteLine();
+// System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+// System.Console.WriteLine();
 
-while(fila.Count > 0){
-    System.Console.WriteLine($"Vez de: {fila.Peek()}");
-    System.Console.WriteLine($"{fila.Dequeue()} atendido");
-    System.Console.WriteLine();
-}
+// while(fila.Count > 0){
+//     System.Console.WriteLine($"Vez de: {fila.Peek()}");
+//     System.Console.WriteLine($"{fila.Dequeue()} atendido");
+//     System.Console.WriteLine();
+// }
 
-System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
-System.Console.WriteLine();
+// System.Console.WriteLine($"Pessoas na fila: {fila.Count}");
+// System.Console.WriteLine();
+
+
+//* ************ Stack ***********
+
+
+Stack<string> pilhas = new Stack<string>();
+pilhas.Push("HTML");
+pilhas.Push("CSS");
+pilhas.Push("Js");
+pilhas.Push("Ts");
+pilhas.Push("Angular");
+
+// while(pilhas.Count > 0){
+//     System.Console.WriteLine();
+//     System.Console.WriteLine($"Proximo: {pilhas.Peek()}");
+//     System.Console.WriteLine($"{pilhas.Pop()} removido");
+//     // System.Console.WriteLine();
+
+// }
 
