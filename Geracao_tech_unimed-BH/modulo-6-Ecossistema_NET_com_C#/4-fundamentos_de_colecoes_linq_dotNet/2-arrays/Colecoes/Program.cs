@@ -153,11 +153,33 @@
 
 //* ************ Convertendo um array ***********
 
-int[] array = new int[5] { 6,8,15,12,33 };
+// int[] array = new int[5] { 6,8,15,12,33 };
 
-string[] conversao = Array.ConvertAll(array, e => e.ToString());
+// string[] conversao = Array.ConvertAll(array, e => e.ToString());
 
-for (int i = 0; i < conversao.Length; i++)
+// for (int i = 0; i < conversao.Length; i++)
+// {
+//     System.Console.WriteLine(conversao[i]);
+
+// }
+
+//* ************ Declarando e acessando uma lista ***********
+
+// using System.Collections.Generic; 
+
+List<string> estados = new List<string>();
+estados.Add("RJ");
+estados.Add("SC");
+estados.Add("SP");
+estados.Add("MG");
+
+
+//* ************ Removendo elementos de uma lista ***********
+
+estados.Remove("MG");
+
+System.Console.WriteLine($"Quantidade atual de elementos na lista: {estados.Count}");
+foreach (var item in estados)
 {
-    System.Console.WriteLine(conversao[i]);
+    System.Console.WriteLine(item);
 }
