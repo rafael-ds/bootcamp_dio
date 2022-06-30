@@ -38,9 +38,6 @@ a{
 }
 
 
-
-
-
 /*Estilo do menu do roda pé*/
 .itens-menu{
     padding: 20px;
@@ -67,3 +64,19 @@ a{
     color: #818EA0;
     font-size: 1.2em;
 }
+
+
+@media (max-width: 575.98px) { 
+    .itens-menu{
+        padding: 5px;
+    }
+    
+    .itens-menu h4{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    
+    .itens-menu ul li a{
+        font-size: 1em;
+    }
+ }

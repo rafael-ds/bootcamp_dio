@@ -60,3 +60,32 @@
 .area-input button:hover{
     background-color: #e0ab19;
 }
+
+@media (max-width: 575.98px) { 
+    .item{
+        padding: 5px;
+    }
+
+    .app-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span{
+        text-align: center;
+    }
+
+    .descricao span:nth-child(1){
+        font-size: 1em;
+    }
+
+    .area-input{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .area-input button{
+        width: 80px;
+    }
+}

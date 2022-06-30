@@ -28,6 +28,14 @@ h2{
     z-index: -1;
 }
 
+.mais-vendido-desk{
+    display: inline-block;
+}
+
+.mais-vendido-mobile{
+    display: none;
+}
+
 .banner .descricao{
     position: absolute;
     padding: 20px;
@@ -66,6 +74,47 @@ h2{
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+
+@media (max-width: 575.98px) {
+
+
+
+    .produtos{
+        flex-direction: column;
+    }
+
+    .banner{
+        order: 2;
+        margin-top: 20px;
+
+    }
+
+    .mais-vendido-desk{
+        display: none;
+    }
+
+    .mais-vendido-mobile{
+        display: block;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .vitrine{
+        order: 1;
+    }
+
+    .banner .descricao{
+        margin-top: 0;
+    }
+
+    .descricao h3{
+
+        font-size: 2em;
+    }
 }
 
 

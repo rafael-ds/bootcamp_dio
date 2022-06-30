@@ -26,29 +26,15 @@
     width: 100px;
 
 }
-/* 
-.assus {
-    width: 200px;
-    margin-top: 30px;
-}
 
-.xbox{
-    width: 200px;
 
-}
-.razer{
-    width: 220px;
-    margin-top: 20px;
+@media (max-width: 575.98px) { 
+    .marca a img{
+        width: 80px;
+    }
 
-}
-
-.nintendo{
-    width: 100px;
-    margin-top: 5px;
-
-}
-
-.playS{
-    width: 120px;
-    margin-top: 5px;
-} */
+    .marca a .nintendo, .marca a .playS{
+        width: 40px;
+    
+    }
+ }

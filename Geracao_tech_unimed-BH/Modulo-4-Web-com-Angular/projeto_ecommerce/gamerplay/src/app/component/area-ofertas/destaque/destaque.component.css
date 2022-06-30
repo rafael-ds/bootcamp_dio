@@ -40,4 +40,9 @@
     .banner{
         width: 100%;
     }
+
+    .banner img{
+        width: 350px;
+        margin-top: 20px;
+    }
 }

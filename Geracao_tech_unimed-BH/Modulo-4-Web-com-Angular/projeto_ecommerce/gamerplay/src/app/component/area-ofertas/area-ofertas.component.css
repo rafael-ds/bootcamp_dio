@@ -21,8 +21,7 @@
     }
 
     .destaque, .fim-semana{
-        flex: none;
         margin-bottom: 10px;
-        
+        width: 100%;
     }
 }
