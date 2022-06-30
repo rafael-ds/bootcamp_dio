@@ -180,16 +180,18 @@ estados.Add("MG");
 
 
 //* ************ Adicionando coleções a uma lista ***********
-string[] estadosArray = new string[2] {"RS", "BA"};
+// string[] estadosArray = new string[2] {"RS", "BA"};
 
-estados.AddRange(estadosArray);
+// estados.AddRange(estadosArray);
 
+
+
+
+//* ************ Adicionando elemento em um indice informado a lista ***********
+estados.Insert(2, "ES");
 
 System.Console.WriteLine($"Quantidade atual de elementos na lista: {estados.Count}");
 foreach (var item in estados)
 {
     System.Console.WriteLine(item);
 }
-
-
-//* ************ Adicionando elemento em um indice informado a lista ***********
