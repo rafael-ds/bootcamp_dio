@@ -239,11 +239,11 @@
 
 //* ************ Dicionário ***********
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+// Dictionary<string, string> estados = new Dictionary<string, string>();
 
-estados.Add("RJ", "Rio de Janeiro");
-estados.Add("SC", "Chapecó");
-estados.Add("SP", "São Paulo");
+// estados.Add("RJ", "Rio de Janeiro");
+// estados.Add("SC", "Chapecó");
+// estados.Add("SP", "São Paulo");
 
 // foreach (KeyValuePair<string, string> item in estados)
 // {
@@ -270,18 +270,41 @@ estados.Add("SP", "São Paulo");
 
 //* ************ Removendo um item do dicionario  ***********
 
-System.Console.WriteLine("Atual");
-foreach (KeyValuePair<string, string> item in estados)
-{
-    System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
-}
+// System.Console.WriteLine("Atual");
+// foreach (KeyValuePair<string, string> item in estados)
+// {
+//     System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
+// }
 
-estados.Remove("SP");
+// estados.Remove("SP");
 
-System.Console.WriteLine();
-System.Console.WriteLine("Atualizado");
+// System.Console.WriteLine();
+// System.Console.WriteLine("Atualizado");
 
-foreach (KeyValuePair<string, string> item in estados)
-{
-    System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
-}
+// foreach (KeyValuePair<string, string> item in estados)
+// {
+//     System.Console.WriteLine($"UF: {item.Key} - Cidade: {item.Value}");
+
+
+// }
+
+//* ************ Obtendo e ordendando valores com linq  ***********
+
+int[] arrayNumeros = new int[5] {2, 7, 38 , 99, 15};
+
+var numerosParesQuery = 
+    from num in arrayNumeros
+    where num % 2 == 0
+    orderby num
+    select num;
+
+
+var numerosParesMetodo = arrayNumeros.Where(n => n % 2 == 0).OrderBy(n => n).ToList();
+
+System.Console.WriteLine(numerosParesQuery);
+
+
+// foreach (var item in numerosParesQuery)
+// {
+//     System.Console.WriteLine(numerosParesQuery);
+// }
