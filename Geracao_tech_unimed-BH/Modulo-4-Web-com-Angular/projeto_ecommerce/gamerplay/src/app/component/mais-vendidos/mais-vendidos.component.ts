@@ -12,4 +12,5 @@ export class MaisVendidosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
 }

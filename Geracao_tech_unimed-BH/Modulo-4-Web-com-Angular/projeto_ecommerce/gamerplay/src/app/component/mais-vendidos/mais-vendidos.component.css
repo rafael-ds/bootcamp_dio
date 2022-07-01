@@ -68,12 +68,25 @@ h2{
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    /* border: solid 1px; */
+
 }
 
 .lista-produtos{
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
+    /* border: solid 1px yellow; */
+
+}
+
+.card-produto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 

@@ -40,6 +40,24 @@ export class ListaProdutosService {
         valor_real: 'R$ 5,00',
         valor_desconto: 'R$ 50,00',
       },
+      {
+        imagem : 'assets/images/img-produtos/pc-gamer.png',
+        descricao: 'Computador Gamer i7 16gb de memória + monitor + teclado + headset',
+        valor_real: 'R$ 5,00',
+        valor_desconto: 'R$ 50,00',
+      },
+      {
+        imagem : 'assets/images/img-produtos/pc-gamer.png',
+        descricao: 'Computador Gamer i7 16gb de memória + monitor + teclado + headset',
+        valor_real: 'R$ 5,00',
+        valor_desconto: 'R$ 50,00',
+      },
+      {
+        imagem : 'assets/images/img-produtos/pc-gamer.png',
+        descricao: 'Computador Gamer i7 16gb de memória + monitor + teclado + headset',
+        valor_real: 'R$ 5,00',
+        valor_desconto: 'R$ 50,00',
+      },
     ]
 
     return of(arrayProdutos)
