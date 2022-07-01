@@ -8,9 +8,18 @@
     margin-left: 10px;
 
 }
+
+.itens:hover{
+    box-shadow: 1px 1px 10px 1px #9aa5b33d;
+    transform: translateY(4px);
+    width: 210px;
+    transition: .2s;
+}
+
 .img img{
     width: 140px;
     height: 140px;
+    cursor: pointer;
 }
 .descricao{
     display: flex;
@@ -57,5 +66,18 @@
 
 }
 
+
+@media (max-width: 575.98px) {
+    .itens{
+        width: 100%;
+        margin-left: 0;
+
+        margin-top: 10px;
+    }
+
+    .itens:hover{
+        width: 100%;
+    }
+}
 
 
