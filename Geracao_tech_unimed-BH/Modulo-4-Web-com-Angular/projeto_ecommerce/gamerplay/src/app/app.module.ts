@@ -34,6 +34,7 @@ import { CategoriasComponent } from './component/shared/footer/menu-footer/categ
 import { AjudaComponent } from './component/shared/footer/menu-footer/ajuda/ajuda.component';
 import { SobreComponent } from './component/shared/footer/menu-footer/sobre/sobre.component';
 import { ToggleComponent } from './component/shared/header/toggle/toggle.component';
+import { ListaProdutosService } from './component/servicos/produtos/lista-produtos.service';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,7 @@ import { ToggleComponent } from './component/shared/header/toggle/toggle.compone
     BrowserAnimationsModule,
     MatExpansionModule,
   ],
-  providers: [],
+  providers: [ListaProdutosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
