@@ -49,3 +49,49 @@
     padding: 5px;
 
 }
+
+.img-desk{
+    display: block;
+}
+.img-mobile{
+    display: none;
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .banner{
+        display: flex;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .descricoes{
+        width: 90%;
+        padding: 10;
+        margin-left: 10px;
+        line-height: 7px;
+    }
+
+    .sobre p:nth-child(1){
+        padding: 10px;
+        width:90%;
+    }
+
+    .sobre h2{
+        padding: 5px;
+    }
+
+    .conteudo{
+        padding: 0;
+    }
+
+    .img-desk{
+        display: none;
+    }
+    
+    .img-mobile{
+        display: block;
+    }
+    
+}
