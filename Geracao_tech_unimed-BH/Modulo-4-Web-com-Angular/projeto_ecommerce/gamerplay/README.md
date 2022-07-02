@@ -15,7 +15,7 @@ O projeto desenvolvido é um template e-commerce voltado ao nicho de games e ite
 
 # 🚀 Tecnologias
 <div>
-    <img src='https://ik.imagekit.io/dfnyrlf8n/icones/html_zNLzLOtYS.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656792005481' width="30" margin=>
+    <img src='https://ik.imagekit.io/dfnyrlf8n/icones/html_zNLzLOtYS.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656792005481' width="30"> 
     <img src='https://ik.imagekit.io/dfnyrlf8n/icones/css_KQZcpEPaS.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656792005275' width="30">
     <img src='https://ik.imagekit.io/dfnyrlf8n/icones/bootstrap_grXnc77dp.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656792005643' width="30">
     <img src='https://ik.imagekit.io/dfnyrlf8n/icones/Js_3cqVr4C5n.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1656792005076' width="30">
