@@ -1,0 +1,15 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\bin\Debug\net6.0\arquivos_e_streams.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\bin\Debug\net6.0\arquivos_e_streams.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\bin\Debug\net6.0\arquivos_e_streams.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\bin\Debug\net6.0\arquivos_e_streams.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\bin\Debug\net6.0\arquivos_e_streams.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.csproj.AssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\refint\arquivos_e_streams.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\arquivos_e_streams.genruntimeconfig.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\arquivos_e_streams\obj\Debug\net6.0\ref\arquivos_e_streams.dll
