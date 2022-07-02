@@ -1,0 +1,15 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\bin\Debug\net6.0\projeto.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\bin\Debug\net6.0\projeto.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\bin\Debug\net6.0\projeto.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\bin\Debug\net6.0\projeto.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\bin\Debug\net6.0\projeto.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.csproj.AssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\refint\projeto.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\projeto.genruntimeconfig.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\6-trabalhando_com_arquivos_e_strems\2-diretorios\projeto\obj\Debug\net6.0\ref\projeto.dll
