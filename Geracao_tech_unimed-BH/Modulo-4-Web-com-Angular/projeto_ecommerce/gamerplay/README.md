@@ -27,13 +27,13 @@ O projeto desenvolvido é um template e-commerce voltado ao nicho de games e ite
 # 🖱 Layout
 *  ## 💻 Desktop
     <h1 align="center">
-    <img src="https://ik.imagekit.io/dfnyrlf8n/DIO/Gera%C3%A7%C3%A3o_tech_unimed_-bh/desktop_p5-5lK6FU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656790890195">
+    <img src="https://ik.imagekit.io/dfnyrlf8n/DIO/Gera%C3%A7%C3%A3o_tech_unimed_-bh/tem_desk_Bs4M_sjlp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656793734650">
     </h1>
 <br>
 
 * ## 📱 Mobile
     <h1 align="center">
-    <img src="https://ik.imagekit.io/dfnyrlf8n/DIO/Gera%C3%A7%C3%A3o_tech_unimed_-bh/tem_mobile_2v1-Bho-i.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1656792970020">
+    <img src="https://ik.imagekit.io/dfnyrlf8n/DIO/Gera%C3%A7%C3%A3o_tech_unimed_-bh/tem_mobile_GhUxl8WTv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656793734439">
     </h1>
 <br>
 <hr>
