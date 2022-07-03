@@ -1,5 +1,5 @@
 ﻿CriarDiretorioGlobo();
-// CriarArquivo();
+CriarArquivo();
 
 var origem = Path.Combine(Environment.CurrentDirectory, "Brasil.txt");
 var destino = Path.Combine(Environment.CurrentDirectory, "globo", "America do Sul", "Brasil", "Brasil.txt");
