@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\exemplopoo\\ExemploPOO.csproj": {}
+    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\ExemploPOO\\ExemploPOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\exemplopoo\\ExemploPOO.csproj": {
+    "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\ExemploPOO\\ExemploPOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\exemplopoo\\ExemploPOO.csproj",
+        "projectUniqueName": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\ExemploPOO\\ExemploPOO.csproj",
         "projectName": "ExemploPOO",
-        "projectPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\exemplopoo\\ExemploPOO.csproj",
+        "projectPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\ExemploPOO\\ExemploPOO.csproj",
         "packagesPath": "C:\\Users\\RadiDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\exemplopoo\\obj\\",
+        "outputPath": "C:\\Users\\RadiDev\\Documents\\Dev\\Git\\bootcamp_dio\\Geracao_tech_unimed-BH\\modulo-6-Ecossistema_NET_com_C#\\7-progamacao_OOP_com_cs\\ExemploPOO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RadiDev\\AppData\\Roaming\\NuGet\\NuGet.Config"
