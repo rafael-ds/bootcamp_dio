@@ -19,18 +19,25 @@
 // System.Console.WriteLine($"Area: {r.ObterArea()}");
 
 
-// Herança *****************
+// Herança e Polimorfismo em tempo de execução*****************
 
-Aluno aluno = new Aluno();
-Professor professor = new Professor();
+// Aluno aluno = new Aluno();
+// Professor professor = new Professor();
 
 // aluno.Nome = "Rafael";
 // aluno.Idade = 15;
 // aluno.Nota = 8;
 // aluno.Apresentar();
 
-professor.Nome = "Manu";
-professor.Idade = 28;
-professor.Salario = 3000;
-professor.Apresentar();
+// professor.Nome = "Manu";
+// professor.Idade = 28;
+// professor.Salario = 3000;
+// professor.Apresentar();
+
+//Polimorfismo em tempo de compilação*****************
+
+Calculadora calc = new Calculadora();
+
+System.Console.WriteLine($"Resultado da primeira soma: {calc.Somar(2, 5)}");
+System.Console.WriteLine($"Resultado da segunda soma: {calc.Somar(2, 5, 8)}");
 
