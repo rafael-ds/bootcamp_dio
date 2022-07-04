@@ -24,14 +24,13 @@
 Aluno aluno = new Aluno();
 Professor professor = new Professor();
 
-
-aluno.Nome = "Rafael";
-aluno.Idade = 15;
-aluno.Nota = 8;
+// aluno.Nome = "Rafael";
+// aluno.Idade = 15;
+// aluno.Nota = 8;
+// aluno.Apresentar();
 
 professor.Nome = "Manu";
 professor.Idade = 28;
 professor.Salario = 3000;
-
-aluno.Apresentar();
 professor.Apresentar();
+
