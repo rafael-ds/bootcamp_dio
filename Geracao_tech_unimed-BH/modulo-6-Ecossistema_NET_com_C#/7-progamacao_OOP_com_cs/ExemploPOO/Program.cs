@@ -71,4 +71,6 @@ using ExemploPOO.Models;
 var caminho = "C:\\TrabalhandoComArquivos";
 
 FileHelper arquivos = new FileHelper();
-arquivos.ListarDiretorios(caminho); 
+// arquivos.ListarDiretorios(caminho); 
+
+arquivos.LinstandoArquivos(caminho);

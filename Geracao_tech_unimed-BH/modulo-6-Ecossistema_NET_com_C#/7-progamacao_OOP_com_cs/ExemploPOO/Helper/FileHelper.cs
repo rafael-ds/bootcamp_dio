@@ -11,5 +11,18 @@ namespace ExemploPOO.Interfaces
                 System.Console.WriteLine(retorno);
             }
         }
+
+        public void LinstandoArquivos(string caminho)
+        {
+            // var retornoArquivo = Directory.GetFiles(caminho, "*.txt", SearchOption.AllDirectories);
+            // var retornoArquivo = Directory.GetFiles(caminho, "*2.txt", SearchOption.AllDirectories);
+            var retornoArquivo = Directory.GetFiles(caminho, "*2*", SearchOption.AllDirectories);
+
+            foreach (var retorno in retornoArquivo)
+            {
+                System.Console.WriteLine(retorno);
+            }
+
+        }
     }
 }
