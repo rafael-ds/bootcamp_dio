@@ -70,13 +70,16 @@ using ExemploPOO.Models;
 
 var caminho = "C:\\TrabalhandoComArquivos";
 
-// var pathCombine = Path.Combine(caminho, "teste1");
+var pathCombine = Path.Combine(caminho, "teste1");
+var caminhoAqruivo = Path.Combine(caminho, "arquivo-teste-stream.txt");
 FileHelper arquivos = new FileHelper();
 
-var caminhoAqruivo = Path.Combine(caminho, "arquivo-teste.txt");
-arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Ola, me chamo Rafael .");
-arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Esse é um teste de escrita de arquivo de texto.");
-arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Tchau.");
+var listaString = new List<string>{"Linha 1", "Linha 2", "Linha 3"};
+arquivos.CriarTextoSteam(caminho, listaString);
+
+// arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Ola, me chamo Rafael .");
+// arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Esse é um teste de escrita de arquivo de texto.");
+// arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Tchau.");
 
 // arquivos.ListarDiretorios(caminho);
 // arquivos.LinstandoArquivos(caminho);

@@ -42,5 +42,18 @@ namespace ExemploPOO.Interfaces
                 File.WriteAllText(caminho, conteudo);
             }
         }
+
+        public void CriarTextoSteam(string caminho, List<string> conteudo)
+        {
+
+            using (var stream = File.CreateText(caminho))
+            {
+                foreach (var linha in conteudo)
+                {
+                    stream.WriteLine(linha);
+                }
+            }
+
+        }
     }
 }
