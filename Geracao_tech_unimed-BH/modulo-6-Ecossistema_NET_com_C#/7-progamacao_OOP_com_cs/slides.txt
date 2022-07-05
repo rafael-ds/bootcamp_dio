@@ -15,3 +15,6 @@ https://docs.google.com/presentation/d/1AQsiNNDuC9lwYa-NDzhVKe-NvbTu7H33/edit?us
 
 6 - Polimorfismo
 https://docs.google.com/presentation/d/1A7uIZffK-PDFUL9h2-uzwHu_hDS2ygMQ/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
+
+7 - Classes Abstratas
+https://docs.google.com/presentation/d/1WWW6oEmEcs7LxgOHal-IH2YdHMMs5hkL/edit?rtpof=true&sd=true

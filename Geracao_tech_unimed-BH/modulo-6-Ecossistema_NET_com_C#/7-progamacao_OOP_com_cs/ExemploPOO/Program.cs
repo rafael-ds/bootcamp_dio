@@ -47,6 +47,13 @@
 
 
 // Conta conta = new Conta();
-Corrente conta = new Corrente();
-conta.Creditar(10000);
-conta.ExibirSaldo();
+// Corrente conta = new Corrente();
+// conta.Creditar(10000);
+// conta.ExibirSaldo();
+
+
+//Classes object  *****************
+Computador comp = new Computador();
+
+
+System.Console.WriteLine(comp.ToString());
