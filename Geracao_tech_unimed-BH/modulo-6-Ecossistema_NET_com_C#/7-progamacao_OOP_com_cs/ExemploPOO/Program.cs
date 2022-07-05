@@ -61,5 +61,5 @@ using ExemploPOO.Models;
 
 ICalculadora calc = new Calculadora();
 
-System.Console.WriteLine(calc.Dividir(4,2));
-System.Console.WriteLine(calc.Somar(4,2));
+System.Console.WriteLine(calc.Dividir(4, 2));
+System.Console.WriteLine(calc.Somar(4, 2));

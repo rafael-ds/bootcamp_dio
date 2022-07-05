@@ -18,3 +18,6 @@ https://docs.google.com/presentation/d/1A7uIZffK-PDFUL9h2-uzwHu_hDS2ygMQ/edit?us
 
 7 - Classes Abstratas
 https://docs.google.com/presentation/d/1WWW6oEmEcs7LxgOHal-IH2YdHMMs5hkL/edit?rtpof=true&sd=true
+
+8 - interfaces
+https://docs.google.com/presentation/d/1NYNqt_ixh3b8YVjRwf7lam-e4mP8F0bZ/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
