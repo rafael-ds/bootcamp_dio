@@ -24,5 +24,10 @@ namespace ExemploPOO.Interfaces
             }
 
         }
+
+        public void CriandoDiretorio(string caminho){
+            var retorno = Directory.CreateDirectory(caminho);
+            System.Console.WriteLine(retorno.FullName);
+        }
     }
 }

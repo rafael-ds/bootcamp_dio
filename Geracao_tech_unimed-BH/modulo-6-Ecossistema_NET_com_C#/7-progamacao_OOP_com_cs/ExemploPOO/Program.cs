@@ -69,8 +69,9 @@ using ExemploPOO.Models;
 // // Manipulando Arquivos  *****************
 
 var caminho = "C:\\TrabalhandoComArquivos";
-
+var pathCombine = Path.Combine(caminho, "teste3", "subPastaTeste3");
 FileHelper arquivos = new FileHelper();
-// arquivos.ListarDiretorios(caminho); 
 
-arquivos.LinstandoArquivos(caminho);
+// arquivos.ListarDiretorios(caminho);
+// arquivos.LinstandoArquivos(caminho);
+// arquivos.CriandoDiretorio(pathCombine);
