@@ -1,4 +1,5 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
 // Pessoa p1 = new Pessoa();
 // Pessoa p2 = new Pessoa();
@@ -52,8 +53,13 @@
 // conta.ExibirSaldo();
 
 
-//Classes object  *****************
-Computador comp = new Computador();
+// //Classes object  *****************
+// Computador comp = new Computador();
 
 
-System.Console.WriteLine(comp.ToString());
+// System.Console.WriteLine(comp.ToString());
+
+ICalculadora calc = new Calculadora();
+
+System.Console.WriteLine(calc.Dividir(4,2));
+System.Console.WriteLine(calc.Somar(4,2));
