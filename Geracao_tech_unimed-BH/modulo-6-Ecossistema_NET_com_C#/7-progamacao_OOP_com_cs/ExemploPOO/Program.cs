@@ -36,8 +36,17 @@
 
 //Polimorfismo em tempo de compilação*****************
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-System.Console.WriteLine($"Resultado da primeira soma: {calc.Somar(2, 5)}");
-System.Console.WriteLine($"Resultado da segunda soma: {calc.Somar(2, 5, 8)}");
+// System.Console.WriteLine($"Resultado da primeira soma: {calc.Somar(2, 5)}");
+// System.Console.WriteLine($"Resultado da segunda soma: {calc.Somar(2, 5, 8)}");
 
+
+
+//Classes abstratas  *****************
+
+
+// Conta conta = new Conta();
+Corrente conta = new Corrente();
+conta.Creditar(10000);
+conta.ExibirSaldo();
