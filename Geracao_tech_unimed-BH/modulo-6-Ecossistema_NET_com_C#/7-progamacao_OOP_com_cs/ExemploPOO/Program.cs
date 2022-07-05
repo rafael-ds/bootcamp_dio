@@ -59,7 +59,16 @@ using ExemploPOO.Models;
 
 // System.Console.WriteLine(comp.ToString());
 
-ICalculadora calc = new Calculadora();
+// ICalculadora calc = new Calculadora();
 
-System.Console.WriteLine(calc.Dividir(4, 2));
-System.Console.WriteLine(calc.Somar(4, 2));
+// System.Console.WriteLine(calc.Dividir(4, 2));
+// System.Console.WriteLine(calc.Somar(4, 2));
+
+
+
+// // Manipulando Arquivos  *****************
+
+var caminho = "C:\\TrabalhandoComArquivos";
+
+FileHelper arquivos = new FileHelper();
+arquivos.ListarDiretorios(caminho); 
