@@ -25,9 +25,22 @@ namespace ExemploPOO.Interfaces
 
         }
 
-        public void CriandoDiretorio(string caminho){
+        public void CriandoDiretorio(string caminho)
+        {
             var retorno = Directory.CreateDirectory(caminho);
             System.Console.WriteLine(retorno.FullName);
+        }
+        public void ApagarDiretorio(string caminho, bool apagarArquivos)
+        {
+            Directory.Delete(caminho, apagarArquivos);
+        }
+
+        public void CrindoUmArquivoTexto(string caminho, string conteudo)
+        {
+            if (!File.Exists(caminho))
+            {
+                File.WriteAllText(caminho, conteudo);
+            }
         }
     }
 }

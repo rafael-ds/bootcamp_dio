@@ -69,9 +69,17 @@ using ExemploPOO.Models;
 // // Manipulando Arquivos  *****************
 
 var caminho = "C:\\TrabalhandoComArquivos";
-var pathCombine = Path.Combine(caminho, "teste3", "subPastaTeste3");
+
+// var pathCombine = Path.Combine(caminho, "teste1");
 FileHelper arquivos = new FileHelper();
+
+var caminhoAqruivo = Path.Combine(caminho, "arquivo-teste.txt");
+arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Ola, me chamo Rafael .");
+arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Esse é um teste de escrita de arquivo de texto.");
+arquivos.CrindoUmArquivoTexto(caminhoAqruivo, "Tchau.");
 
 // arquivos.ListarDiretorios(caminho);
 // arquivos.LinstandoArquivos(caminho);
 // arquivos.CriandoDiretorio(pathCombine);
+// arquivos.ApagarDiretorio(pathCombine, true);
+
