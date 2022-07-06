@@ -1,3 +1,5 @@
 2 - Construtores
 https://docs.google.com/presentation/d/1kKXnq9HP7dMU_SjrIhEmYoKT7dYBxE88/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
 
+3 - Getters e Setters
+https://docs.google.com/presentation/d/1ai0q6mo4cP-G8eY-EVF2PERiZlnc4yDu/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
