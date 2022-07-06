@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Construtores.Models;
+
+Pessoa p1 = new Pessoa();
+p1.Apresentar();
