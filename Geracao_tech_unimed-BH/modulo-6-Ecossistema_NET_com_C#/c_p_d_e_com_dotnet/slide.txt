@@ -3,3 +3,15 @@ https://docs.google.com/presentation/d/1kKXnq9HP7dMU_SjrIhEmYoKT7dYBxE88/edit?us
 
 3 - Getters e Setters
 https://docs.google.com/presentation/d/1ai0q6mo4cP-G8eY-EVF2PERiZlnc4yDu/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
+
+4 - Modificadores
+https://docs.google.com/presentation/d/11u_vaoio-xt0wkX53TJdYNK-DumPGg1F/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
+
+5 - Delegates
+https://docs.google.com/presentation/d/1NwDdJWkvslKEdp2EuWlMr7BGwMzBRJoU/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
+
+6 - Eventos
+https://docs.google.com/presentation/d/1FBsO4H3kxS-0T6gVYAvjJNM3qM9Sq3FV/edit?usp=sharing&ouid=113123392537739506969&rtpof=true&sd=true
+
+7 - Slide das aulas
+https://docs.google.com/presentation/d/1pJJySZkVw3IwhbdXiDaPtOmsixQUzIsV/edit#slide=id.p2
