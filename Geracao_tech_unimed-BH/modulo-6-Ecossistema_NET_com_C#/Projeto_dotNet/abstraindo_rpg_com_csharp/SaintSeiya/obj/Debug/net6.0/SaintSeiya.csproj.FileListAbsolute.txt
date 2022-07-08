@@ -1,0 +1,15 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\bin\Debug\net6.0\SaintSeiya.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\bin\Debug\net6.0\SaintSeiya.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\bin\Debug\net6.0\SaintSeiya.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\bin\Debug\net6.0\SaintSeiya.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\bin\Debug\net6.0\SaintSeiya.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.csproj.AssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\refint\SaintSeiya.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\SaintSeiya.genruntimeconfig.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\abstraindo_rpg_com_csharp\SaintSeiya\obj\Debug\net6.0\ref\SaintSeiya.dll
