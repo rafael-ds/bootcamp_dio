@@ -9,7 +9,7 @@ namespace SaintSeiya.Models.Characters
                 System.Console.WriteLine($"================ {knight.Name} ================");
                 System.Console.WriteLine(" Digite (1) para Atacar. ");
                 System.Console.WriteLine(" Digite (2) para Defender. ");
-                System.Console.WriteLine(" Digite (0) para escoler outro personagem. ");
+                System.Console.WriteLine(" Digite (0) para escolher outro personagem. ");
                 System.Console.WriteLine($"===============================================");
 
                 string? optionknightBonze = System.Console.ReadLine();

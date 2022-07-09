@@ -12,7 +12,7 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
         }
 
         public override string Defend(){
-            return $" - {this.Name} se defendeu do golpe com o ESCUDO DE CRISTAL...\n";
+            return $" - {this.Name} se defendeu do golpe com o PAREDE DE CRISTAL...\n";
         }
     }
 }

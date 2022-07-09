@@ -1,5 +1,4 @@
-﻿using SaintSeiya.Models;
-using SaintSeiya.Models.Characters.BronzeKnights;
+﻿using SaintSeiya.Models.Characters.BronzeKnights;
 using SaintSeiya.Models.Characters.GoldenKnights;
 using SaintSeiya.Models.Characters.Soldiers;
 using SaintSeiya.Models.Characters.SteelKnights;
@@ -21,9 +20,9 @@ while (true)
 
     System.Console.WriteLine($"===============================================");
 
-    string? opcao = System.Console.ReadLine();
+    string? option = System.Console.ReadLine();
 
-    switch (opcao)
+    switch (option)
     {
         case "1":
             MenuSoldier optionSoldier = new MenuSoldier();
@@ -54,7 +53,7 @@ while (true)
             break;
     }
 
-    if (opcao == "0")
+    if (option == "0")
     {
         System.Console.WriteLine("Saindo...");
         break;

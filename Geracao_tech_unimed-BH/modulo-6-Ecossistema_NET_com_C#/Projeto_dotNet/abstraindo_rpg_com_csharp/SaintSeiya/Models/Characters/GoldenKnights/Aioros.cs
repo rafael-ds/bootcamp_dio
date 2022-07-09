@@ -5,7 +5,7 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
         public void Sargittarus(){
             this.Name = "Aioros";
             this.Category = "Cavaleiro de Ouro";
-            this.Armor = "Sargitario";
+            this.Armor = "Sagitário";
             this.Attacks = "TROVÃO ATÔMICO...";
             this.LevelAttacks = 96;
             this.LevelDefense = 87;

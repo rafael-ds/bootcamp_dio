@@ -7,15 +7,19 @@ namespace SaintSeiya.Models.Characters.SteelKnights
             Sho sho = new Sho();
             Ushio ushio = new Ushio();
 
+            daichi.EarthArmor();
+            sho.SkyArmor();
+            ushio.SeaArmor();
+
             AttackDefend attackAndDefend = new AttackDefend();
 
             while(true){
                 System.Console.WriteLine($"================ Cavaleiros de Aço ================");
 
-                System.Console.WriteLine(" Digite (1) para escolher Daichi da Armadura da Terra. ");
-                System.Console.WriteLine(" Digite (2) para escolher Daichi da Shô do Ar. ");
-                System.Console.WriteLine(" Digite (3) para escolher Ushio da Armadura do Mar. ");
-                System.Console.WriteLine(" Digite (0) para voltar ao menu principal. ");
+                System.Console.WriteLine($" Digite (1) para escolher Daichi da {daichi.Armor}. ");
+                System.Console.WriteLine($" Digite (2) para escolher Shô da {sho.Armor}. ");
+                System.Console.WriteLine($" Digite (3) para escolher Ushio da {ushio.Armor}. ");
+                System.Console.WriteLine($" Digite (0) para voltar ao menu principal. ");
 
                 System.Console.WriteLine($"=======================================================");
 

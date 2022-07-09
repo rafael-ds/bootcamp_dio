@@ -12,7 +12,7 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
         }
 
         public override string Defend(){
-            return $" - {this.Name} se defendeu do golpe com a CORRENTE CIRCUALAR...\n";
+            return $" - {this.Name} se defendeu do golpe com a CORRENTE CIRCULAR...\n";
         }
     }
 }

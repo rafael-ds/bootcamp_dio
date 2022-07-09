@@ -5,7 +5,7 @@ namespace SaintSeiya.Models.Characters.SilverKnights
         public void Eagle(){
             this.Name = "Marin";
             this.Category = "Amazona de Prata";
-            this.Armor = "Cobra";
+            this.Armor = "Águia";
             this.Attacks = "METEOROS...";
             this.LevelAttacks = 45;
             this.LevelDefense = 32;

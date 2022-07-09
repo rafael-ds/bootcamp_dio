@@ -4,36 +4,49 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
     {
         public void ChooseKnight()
         {
-            Afrodite afrodite = new Afrodite();
-            Aioria aioria = new Aioria();
-            Aioros aioros = new Aioros();
-            Aldebaram aldebaram = new Aldebaram();
-            DeathMask deathMask = new DeathMask();
-            Doko doko = new Doko();
-            Kamus kamus = new Kamus();
-            Miro miro = new Miro();
             Mu mu = new Mu();
+            Aldebaram aldebaram = new Aldebaram();
             Saga saga = new Saga();
+            DeathMask deathMask = new DeathMask();
+            Aioria aioria = new Aioria();
             Shaka shaka = new Shaka();
+            Doko doko = new Doko();
+            Aioros aioros = new Aioros();
+            Miro miro = new Miro();
+            Kamus kamus = new Kamus();
             Shura shura = new Shura();
+            Afrodite afrodite = new Afrodite();
 
+            mu.Aries();
+            aldebaram.Taurus();
+            saga.Gemini();
+            deathMask.Cancer();
+            aioria.Leo();
+            shaka.Virgo();
+            doko.Libra();
+            aioros.Sargittarus();
+            miro.Scorpion();
+            kamus.Aquarius();
+            shura.Capricorn();
+            afrodite.Pisces();         
+            
             AttackDefend attackAndDefend = new AttackDefend();
 
             while (true)
             {
-                System.Console.WriteLine(" Digite (1) para escolher Mú de Áries. ");
-                System.Console.WriteLine(" Digite (2) para escolher Aldebaran de Touro. ");
-                System.Console.WriteLine(" Digite (3) para escolher Saga de Gêmios. ");
-                System.Console.WriteLine(" Digite (4) para escolher Máscara da Morte de Câncer. ");
-                System.Console.WriteLine(" Digite (5) para escolher Aioria de Leão. ");
-                System.Console.WriteLine(" Digite (6) para escolher Shaka de Virgem. ");
-                System.Console.WriteLine(" Digite (7) para escolher Doko de Libra. ");
-                System.Console.WriteLine(" Digite (8) para escolher Miro de Escorpião. ");
-                System.Console.WriteLine(" Digite (9) para escolher Aioros de Sargitário. ");
-                System.Console.WriteLine(" Digite (10) para escolher Shura de Capricórnio. ");
-                System.Console.WriteLine(" Digite (11) para escolher Kamus de Aquáeio. ");
-                System.Console.WriteLine(" Digite (12) para escolher Afordite de Peixes. ");
-                System.Console.WriteLine(" Digite (0) para voltar ao menu principal. ");
+                System.Console.WriteLine($" Digite (1) para escolher {mu.Name} de {mu.Armor}. ");
+                System.Console.WriteLine($" Digite (2) para escolher {aldebaram.Name} de {aldebaram.Armor}. ");
+                System.Console.WriteLine($" Digite (3) para escolher {saga.Name} de {saga.Armor}. ");
+                System.Console.WriteLine($" Digite (4) para escolher {deathMask.Name} da {deathMask.Armor}. ");
+                System.Console.WriteLine($" Digite (5) para escolher {aioria.Name} de {aioria.Armor}. ");
+                System.Console.WriteLine($" Digite (6) para escolher {shaka.Name} de {shaka.Armor}. ");
+                System.Console.WriteLine($" Digite (7) para escolher {doko.Name} de {doko.Armor}. ");
+                System.Console.WriteLine($" Digite (8) para escolher {miro.Name} de {miro.Armor}. ");
+                System.Console.WriteLine($" Digite (9) para escolher {aioros.Name} de {aioros.Armor}. ");
+                System.Console.WriteLine($" Digite (10) para escolher {shura.Name} de {shura.Armor}. ");
+                System.Console.WriteLine($" Digite (11) para escolher {kamus.Name} de {kamus.Aquarius}. ");
+                System.Console.WriteLine($" Digite (12) para escolher {afrodite.Name} de {afrodite.Armor}. ");
+                System.Console.WriteLine($" Digite (0) para voltar ao menu principal. ");
 
                 System.Console.WriteLine($"=======================================================");
 
@@ -56,8 +69,8 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
 
                     case "3":
                         saga.Gemini();
-                        System.Console.WriteLine($"\n{kamus}\n");
-                        attackAndDefend.attackDefend(kamus);
+                        System.Console.WriteLine($"\n{saga}\n");
+                        attackAndDefend.attackDefend(saga);
                         break;
 
                     case "4":
@@ -80,8 +93,8 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
 
                     case "7":
                         doko.Libra();
-                        System.Console.WriteLine($"\n{shaka}\n");
-                        attackAndDefend.attackDefend(shaka);
+                        System.Console.WriteLine($"\n{doko}\n");
+                        attackAndDefend.attackDefend(doko);
                         break;
 
                     case "8":

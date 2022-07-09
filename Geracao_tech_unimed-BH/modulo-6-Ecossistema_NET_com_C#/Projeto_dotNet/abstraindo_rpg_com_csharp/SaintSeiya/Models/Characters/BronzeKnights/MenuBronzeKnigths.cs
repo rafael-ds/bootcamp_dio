@@ -10,18 +10,24 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             Shiryu shiryu = new Shiryu();
             Shun shun = new Shun();
 
+            hyoga.Cygnus();
+            ikki.Phoenix();
+            seiya.Pegasus();
+            shiryu.Dragon();
+            shun.Andromeda();
+
             AttackDefend attackAndDefend = new AttackDefend();
 
             while (true)
             {
                 System.Console.WriteLine($"================ Cavaleiros de Bronze ================");
 
-                System.Console.WriteLine(" Digite (1) para escolher Hyoga de Cisne. ");
-                System.Console.WriteLine(" Digite (2) para escolher Ikki de Fenix. ");
-                System.Console.WriteLine(" Digite (3) para escolher Seiya de Pegasus. ");
-                System.Console.WriteLine(" Digite (4) para escolher Shyriu de Dragão. ");
-                System.Console.WriteLine(" Digite (5) para escolher Shun de Andromeda. ");
-                System.Console.WriteLine(" Digite (0) para voltar ao menu principal. ");
+                System.Console.WriteLine($" Digite (1) para escolher Hyoga de {hyoga.Cygnus}. ");
+                System.Console.WriteLine($" Digite (2) para escolher Ikki de {ikki.Phoenix}. ");
+                System.Console.WriteLine($" Digite (3) para escolher Seiya de {seiya.Pegasus}. ");
+                System.Console.WriteLine($" Digite (4) para escolher Shyriu de {shiryu.Dragon}. ");
+                System.Console.WriteLine($" Digite (5) para escolher Shun de {shun.Andromeda}. ");
+                System.Console.WriteLine($" Digite (0) para voltar ao menu principal. ");
 
                 System.Console.WriteLine($"=======================================================");
 

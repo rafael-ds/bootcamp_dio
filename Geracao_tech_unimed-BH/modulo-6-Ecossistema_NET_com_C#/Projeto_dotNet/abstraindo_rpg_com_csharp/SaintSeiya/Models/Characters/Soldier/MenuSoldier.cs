@@ -1,5 +1,6 @@
+ 
 namespace SaintSeiya.Models.Characters.Soldiers
-{
+{   
     public class MenuSoldier
     {
         public void Option()

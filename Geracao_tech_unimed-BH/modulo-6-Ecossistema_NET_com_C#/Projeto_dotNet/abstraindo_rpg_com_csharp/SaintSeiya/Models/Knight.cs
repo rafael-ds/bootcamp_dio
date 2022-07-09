@@ -35,7 +35,7 @@ namespace SaintSeiya.Models
         }
 
         public virtual string LaunchAttack(){
-            return $"\n - {this.Name} Ataca com um {this.Attacks}\n";
+            return $"\n - {this.Name} Ataca com {this.Attacks}\n";
         }
 
 

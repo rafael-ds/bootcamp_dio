@@ -11,18 +11,25 @@ namespace SaintSeiya.Models.Characters.SilverKnights
             Misty misty = new Misty();
             Shina shina = new Shina();
 
-            AttackDefend attackAndDefend = new AttackDefend();
+            albion.Cefeu();
+            algol.Perseus();
+            crystalMaster.Crystal();
+            marin.Eagle();
+            misty.Lizard();
+            shina.Snake();
 
+            AttackDefend attackAndDefend = new AttackDefend();
+            
             while (true)
             {
                 System.Console.WriteLine($"================ Cavaleiros de Aço ================");
 
-                System.Console.WriteLine(" Digite (1) para escolher Albion de Cefeu. ");
-                System.Console.WriteLine(" Digite (2) para escolher Algol de Perseu. ");
-                System.Console.WriteLine(" Digite (3) para escolher Marin de Águia. ");
-                System.Console.WriteLine(" Digite (4) para escolher Misty de Lagarto. ");
-                System.Console.WriteLine(" Digite (5) para escolher Marin de Combra. ");
-                System.Console.WriteLine(" Digite (6) para escolher Cavaleiro de Crystal. ");
+                System.Console.WriteLine($" Digite (1) para escolher {albion.Name} de {albion.Armor}. ");
+                System.Console.WriteLine($" Digite (2) para escolher {algol.Name} de {algol.Armor}. ");
+                System.Console.WriteLine($" Digite (3) para escolher {marin.Name} de {marin.Armor}. ");
+                System.Console.WriteLine($" Digite (4) para escolher {misty.Name} de {misty.Armor}. ");
+                System.Console.WriteLine($" Digite (5) para escolher {shina.Name} de {shina.Armor}. ");
+                System.Console.WriteLine($" Digite (6) para escolher {crystalMaster.Name} de {crystalMaster.Armor}. ");
                 System.Console.WriteLine(" Digite (0) para voltar ao menu principal. ");
 
                 System.Console.WriteLine($"=======================================================");
