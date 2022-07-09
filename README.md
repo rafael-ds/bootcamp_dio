@@ -32,5 +32,6 @@ Término: 00/2022
  * ✔ [Flex Turismo](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/3-Posicionando%20elementos%20com%20flexbox%20em%20css)
  * ✔ [Pagina de login do intagram](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%202/4-Recriando%20a%20pagina%20do%20instagram)
  * ✔ [Desafio de projeto TS](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo%203%20-%20Conhecendo%20o%20JavaScript/8-pratica-introducao-ao-typescript/1-desafio-de-projeto)
- * ✔ [Desafio de projeto TS - Criando um front-end de um ecommerce com Angular](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo-4-Web-com-Angular/projeto_ecommerce/gamerplay)
+ * ✔ [Desafio de projeto Angular - Criando um front-end de um ecommerce com Angular](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo-4-Web-com-Angular/projeto_ecommerce/gamerplay)
+ * ✔ [Desafio de projeto C# - Abstraindo um jogo RPG usando Orientação a Objeto](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/modulo-6-Ecossistema_NET_com_C%23/Projeto_dotNet/abstraindo_rpg_com_csharp/SaintSeiya)
 
