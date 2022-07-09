@@ -13,7 +13,7 @@ while (true)
 
     System.Console.WriteLine(" Digite (1) para Soldados. ");
     System.Console.WriteLine(" Digite (2) para Cavaleiros de Aço. ");
-    System.Console.WriteLine(" Digite (3) para Cavaleiros de Bronse. ");
+    System.Console.WriteLine(" Digite (3) para Cavaleiros de Bronze. ");
     System.Console.WriteLine(" Digite (4) para Cavaleiros de Prata. ");
     System.Console.WriteLine(" Digite (5) para Cavaleiros de Ouro. ");
     System.Console.WriteLine(" Digite (0) para Sair. ");

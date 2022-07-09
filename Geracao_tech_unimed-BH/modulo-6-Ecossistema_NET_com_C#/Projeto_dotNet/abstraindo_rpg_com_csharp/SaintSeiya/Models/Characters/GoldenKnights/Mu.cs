@@ -6,7 +6,7 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
             this.Name = "Mú";
             this.Category = "Cavaleiro de Ouro";
             this.Armor = "Áries";
-            this.Attacks = "EXTINÃO ESTRELAR...";
+            this.Attacks = "EXTINÇÃO ESTRELAR...";
             this.LevelAttacks = 83;
             this.LevelDefense = 81;
         }

@@ -44,7 +44,7 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
                 System.Console.WriteLine($" Digite (8) para escolher {miro.Name} de {miro.Armor}. ");
                 System.Console.WriteLine($" Digite (9) para escolher {aioros.Name} de {aioros.Armor}. ");
                 System.Console.WriteLine($" Digite (10) para escolher {shura.Name} de {shura.Armor}. ");
-                System.Console.WriteLine($" Digite (11) para escolher {kamus.Name} de {kamus.Aquarius}. ");
+                System.Console.WriteLine($" Digite (11) para escolher {kamus.Name} de {kamus.Armor}. ");
                 System.Console.WriteLine($" Digite (12) para escolher {afrodite.Name} de {afrodite.Armor}. ");
                 System.Console.WriteLine($" Digite (0) para voltar ao menu principal. ");
 

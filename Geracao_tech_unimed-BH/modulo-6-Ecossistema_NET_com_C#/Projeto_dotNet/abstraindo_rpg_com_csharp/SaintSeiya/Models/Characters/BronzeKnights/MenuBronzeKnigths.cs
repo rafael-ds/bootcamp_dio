@@ -22,11 +22,11 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             {
                 System.Console.WriteLine($"================ Cavaleiros de Bronze ================");
 
-                System.Console.WriteLine($" Digite (1) para escolher Hyoga de {hyoga.Cygnus}. ");
-                System.Console.WriteLine($" Digite (2) para escolher Ikki de {ikki.Phoenix}. ");
-                System.Console.WriteLine($" Digite (3) para escolher Seiya de {seiya.Pegasus}. ");
-                System.Console.WriteLine($" Digite (4) para escolher Shyriu de {shiryu.Dragon}. ");
-                System.Console.WriteLine($" Digite (5) para escolher Shun de {shun.Andromeda}. ");
+                System.Console.WriteLine($" Digite (1) para escolher Hyoga de {hyoga.Armor}. ");
+                System.Console.WriteLine($" Digite (2) para escolher Ikki de {ikki.Armor}. ");
+                System.Console.WriteLine($" Digite (3) para escolher Seiya de {seiya.Armor}. ");
+                System.Console.WriteLine($" Digite (4) para escolher Shyriu de {shiryu.Armor}. ");
+                System.Console.WriteLine($" Digite (5) para escolher Shun de {shun.Armor}. ");
                 System.Console.WriteLine($" Digite (0) para voltar ao menu principal. ");
 
                 System.Console.WriteLine($"=======================================================");
