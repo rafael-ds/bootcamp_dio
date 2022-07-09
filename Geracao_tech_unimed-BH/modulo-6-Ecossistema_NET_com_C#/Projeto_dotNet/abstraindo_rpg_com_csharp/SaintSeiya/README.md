@@ -24,6 +24,6 @@ via terminal um dos personagens com a opção de ataques e defesas que correspon
 
 # 🖱 Apresentação
 <h1 align="center">    
-    <img src="https://ik.imagekit.io/dfnyrlf8n/DIO/Gera%C3%A7%C3%A3o_tech_unimed_-bh/SaintSeiya_FQivRHRty.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1657407811565" width="100%">
+    <img src="https://ik.imagekit.io/dfnyrlf8n/DIO/Gera%C3%A7%C3%A3o_tech_unimed_-bh/SaintSeiya_FQivRHRty.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1657407811565&tr=w-1200%2Ch-630%2Cfo-auto" width="100%">
 </h1>
 <br>
