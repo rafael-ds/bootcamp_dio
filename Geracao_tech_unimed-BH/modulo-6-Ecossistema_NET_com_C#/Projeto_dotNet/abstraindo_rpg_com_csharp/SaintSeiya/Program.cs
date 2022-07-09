@@ -1,8 +1,11 @@
 ﻿using SaintSeiya.Models;
+using SaintSeiya.Models.Characters.BronzeKnights;
 
-Teste cav = new Teste();
+Seiya seiya = new Seiya();
 
-cav.Seiya();
+seiya.Pegasus();
 
-System.Console.WriteLine(cav);
-System.Console.WriteLine(cav.LaunchAttack());
+
+System.Console.WriteLine(seiya);
+System.Console.WriteLine(seiya.LaunchAttack());
+System.Console.WriteLine(seiya.Defend());

@@ -33,6 +33,15 @@ namespace SaintSeiya.Models
         {
             return $"\n - Nome: {this.Name}\n - Categoria: {this.Category}\n - Armadura: {this.Armor}\n - Ataque: {this.Attacks}\n - Nivel do Ataque: {this.LevelAttacks}\n - Nivel da Defesa: {this.LevelDefense}";
         }
+
+        public virtual string LaunchAttack(){
+            return $"\n - {this.Name} Ataca com um {this.Attacks}\n";
+        }
+
+
+        public virtual string Defend(){
+            return $" - {this.Name} se defendeu do golpe\n";
+        }
     }
 
 
