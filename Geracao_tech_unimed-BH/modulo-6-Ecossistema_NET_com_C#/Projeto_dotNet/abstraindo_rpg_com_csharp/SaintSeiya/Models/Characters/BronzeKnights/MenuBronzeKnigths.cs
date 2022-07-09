@@ -39,25 +39,25 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
                     case "2":
                         ikki.Phoenix();
                         System.Console.WriteLine($"\n{ikki}\n");
-                        attackAndDefend.attackDefend(hyoga);
+                        attackAndDefend.attackDefend(ikki);
                         break;
 
                     case "3":
                         seiya.Pegasus();
                         System.Console.WriteLine($"\n{seiya}\n");
-                        attackAndDefend.attackDefend(hyoga);
+                        attackAndDefend.attackDefend(seiya);
                         break;
 
                     case "4":
                         shiryu.Dragon();
                         System.Console.WriteLine($"\n{shiryu}\n");
-                        attackAndDefend.attackDefend(hyoga);
+                        attackAndDefend.attackDefend(shiryu);
                         break;
 
                     case "5":
                         shun.Andromeda();
                         System.Console.WriteLine($"\n{shun}\n");
-                        attackAndDefend.attackDefend(hyoga);
+                        attackAndDefend.attackDefend(shun);
                         break;
                 }
 

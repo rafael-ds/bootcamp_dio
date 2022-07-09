@@ -2,7 +2,7 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
 {
     public class Miro : Knight
     {
-        public void Scorpio(){
+        public void Scorpion(){
             this.Name = "Miro";
             this.Category = "Cavaleiro de Ouro";
             this.Armor = "Escorpião";

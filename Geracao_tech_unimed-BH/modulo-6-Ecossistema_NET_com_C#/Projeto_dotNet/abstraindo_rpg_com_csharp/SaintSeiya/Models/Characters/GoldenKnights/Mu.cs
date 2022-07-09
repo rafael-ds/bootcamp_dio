@@ -10,5 +10,9 @@ namespace SaintSeiya.Models.Characters.GoldenKnights
             this.LevelAttacks = 83;
             this.LevelDefense = 81;
         }
+
+        public override string Defend(){
+            return $" - {this.Name} se defendeu do golpe com o ESCUDO DE CRISTAL...\n";
+        }
     }
 }

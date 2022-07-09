@@ -1,6 +1,6 @@
 namespace SaintSeiya.Models.Characters.GoldenKnights
 {
-    public class DeathMark : Knight
+    public class DeathMask : Knight
     {
         public void Cancer(){
             this.Name = "Mascara da Morte";

@@ -10,5 +10,9 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             this.LevelAttacks = 37;
             this.LevelDefense = 26;
         }
+
+        public override string Defend(){
+            return $" - {this.Name} se defendeu do golpe com o ESCUDO DO DRAGÃO\n";
+        }
     }
 }

@@ -25,31 +25,37 @@ while (true)
 
     switch (opcao)
     {
-        case "1":            
+        case "1":
             MenuSoldier optionSoldier = new MenuSoldier();
-            optionSoldier.Option();            
+            optionSoldier.Option();
             break;
 
         case "2":
+            MenuSteelKnights optionSteelKnigth = new MenuSteelKnights();
+            optionSteelKnigth.ChooseKnight();
+            break;
+
+        case "3":
             MenuBronzeKnigths optionBronzeKnights = new MenuBronzeKnigths();
             optionBronzeKnights.ChooseKnight();
             break;
 
-        case "3":
-            System.Console.WriteLine("Cavaleiros de Bonze");
-            break;
         case "4":
-            System.Console.WriteLine("Cavaleiros de Prata");
+            MenuSilverKnights optionSilverKnights = new MenuSilverKnights();
+            optionSilverKnights.ChooseKnight();
             break;
+
         case "5":
-            System.Console.WriteLine("Cavaleiros de Ouro");
+            MenuGoldenKnights optionGoldenKnights = new MenuGoldenKnights();
+            optionGoldenKnights.ChooseKnight();
             break;
         default:
             System.Console.WriteLine("Informe uma opção válida");
             break;
     }
 
-    if(opcao == "0"){
+    if (opcao == "0")
+    {
         System.Console.WriteLine("Saindo...");
         break;
     }

@@ -10,5 +10,9 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             this.LevelAttacks = 32;
             this.LevelDefense = 18;
         }
+
+        public override string Defend(){
+            return $" - {this.Name} se defendeu do golpe com a CORRENTE CIRCUALAR...\n";
+        }
     }
 }
