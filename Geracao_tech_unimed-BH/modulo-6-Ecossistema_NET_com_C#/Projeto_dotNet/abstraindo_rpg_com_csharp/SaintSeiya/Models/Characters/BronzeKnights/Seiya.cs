@@ -6,7 +6,7 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             this.Name = "Seiya";
             this.Category = "Cavaleiro de Bronze";
             this.Armor = "Pegasus";
-            this.Attacks = "Meteoro de Pegasus";
+            this.Attacks = "METEOROS DE PEGASUS...";
             this.LevelAttacks = 36;
             this.LevelDefense = 21; 
 

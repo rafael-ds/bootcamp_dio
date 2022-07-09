@@ -6,7 +6,7 @@ namespace SaintSeiya.Models.Characters.SteelKnights
             this.Name = "Daichi";
             this.Category = "Cavaleiro de Aço";
             this.Armor = "Armadura da Terra";
-            this.Attacks = "Furacão de Aço";
+            this.Attacks = "FURACÃO DE AÇO...";
             this.LevelAttacks = 12;
             this.LevelDefense = 10; 
 

@@ -6,7 +6,7 @@ namespace SaintSeiya.Models.Characters.SteelKnights
             this.Name = "Shô";
             this.Category = "Cavaleiro de Aço";
             this.Armor = "Armadura do ceu";
-            this.Attacks = "Furacão de Aço";
+            this.Attacks = "FURACÃO DE AÇO...";
             this.LevelAttacks = 12;
             this.LevelDefense = 10; 
 

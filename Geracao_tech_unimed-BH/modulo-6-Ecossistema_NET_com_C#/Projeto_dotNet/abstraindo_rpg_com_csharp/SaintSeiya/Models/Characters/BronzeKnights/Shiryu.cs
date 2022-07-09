@@ -6,7 +6,7 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             this.Name = "Shiryu";
             this.Category = "Cavaleiro de Bronze";
             this.Armor = "Dragão";
-            this.Attacks = "Colera do Dragão";
+            this.Attacks = "CÓLERA DO DRAGÃO...";
             this.LevelAttacks = 37;
             this.LevelDefense = 26;
         }

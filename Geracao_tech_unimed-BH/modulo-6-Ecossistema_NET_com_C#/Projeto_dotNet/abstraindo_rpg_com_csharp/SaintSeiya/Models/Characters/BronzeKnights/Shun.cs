@@ -6,7 +6,7 @@ namespace SaintSeiya.Models.Characters.BronzeKnights
             this.Name = "Shun";
             this.Category = "Cavaleiro de Bronze";
             this.Armor = "Andrômeda";
-            this.Attacks = "Correntes de Andromeda";
+            this.Attacks = "CORRENTES DE ANDRÔMEDA...";
             this.LevelAttacks = 32;
             this.LevelDefense = 18;
         }
