@@ -1,0 +1,15 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\bin\Debug\net6.0\CRUD_Series.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\bin\Debug\net6.0\CRUD_Series.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\bin\Debug\net6.0\CRUD_Series.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\bin\Debug\net6.0\CRUD_Series.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\bin\Debug\net6.0\CRUD_Series.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.csproj.AssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\refint\CRUD_Series.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\CRUD_Series.genruntimeconfig.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_de_series\CRUD_Series\obj\Debug\net6.0\ref\CRUD_Series.dll

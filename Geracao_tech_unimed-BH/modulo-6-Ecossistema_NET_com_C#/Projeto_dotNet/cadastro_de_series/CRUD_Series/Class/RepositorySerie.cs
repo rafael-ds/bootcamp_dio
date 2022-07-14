@@ -1,6 +1,6 @@
 using CRUD_Series.Interfeces;
 
-namespace CRUD_Series.Class
+namespace CRUD_Series
 {
     public class RepositorySerie : IRepository<Serie>
     {
