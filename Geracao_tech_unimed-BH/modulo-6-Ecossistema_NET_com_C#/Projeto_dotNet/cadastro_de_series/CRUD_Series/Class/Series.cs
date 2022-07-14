@@ -1,19 +1,23 @@
+using System;
+
 namespace CRUD_Series
 {
-    public class Series : BaseEntity
+    public class Serie : BaseEntity
     {
         private Genre Genre { get; set; }
         private string Title { get; set; }
         private string Description { get; set; }
         private string Age { get; set; }
+        private bool Exclude { get; set; }
 
-        public Series(int id, Genre genre, string title, string descrition, string age)
+        public Serie(int id, Genre genre, string title, string descrition, string age)
         {
             this.Id = id;
             this.Genre = genre;
             this.Title = title;
             this.Description = descrition;
             this.Age = age;
+            this.Exclude = false;
         }
 
         public override string ToString()
@@ -27,14 +31,20 @@ namespace CRUD_Series
             return result;
         }
 
-
-        public string ReturnTitle(){
+        public string ReturnTitle()
+        {
             return this.Title;
         }
 
-        public int ReturnId(){
+        public int ReturnId()
+        {
             return this.Id;
         }
+
+        public void DeleteSerie(){
+            this.Exclude = true;
+        }
+
     }
 
 }
