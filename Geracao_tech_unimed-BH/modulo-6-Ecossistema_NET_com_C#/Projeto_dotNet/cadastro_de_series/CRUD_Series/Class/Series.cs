@@ -1,4 +1,3 @@
-using System;
 
 namespace CRUD_Series
 {
@@ -7,10 +6,10 @@ namespace CRUD_Series
         private Genre Genre { get; set; }
         private string Title { get; set; }
         private string Description { get; set; }
-        private string Age { get; set; }
+        private int Age { get; set; }
         private bool Exclude { get; set; }
 
-        public Serie(int id, Genre genre, string title, string descrition, string age)
+        public Serie(int id, Genre genre, string title, string descrition, int age)
         {
             this.Id = id;
             this.Genre = genre;
@@ -41,7 +40,8 @@ namespace CRUD_Series
             return this.Id;
         }
 
-        public void DeleteSerie(){
+        public void DeleteSerie()
+        {
             this.Exclude = true;
         }
 

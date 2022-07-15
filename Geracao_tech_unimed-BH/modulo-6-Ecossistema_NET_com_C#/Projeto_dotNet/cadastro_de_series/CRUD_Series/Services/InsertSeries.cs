@@ -21,13 +21,13 @@ namespace CRUD_Series
             }
 
             Console.WriteLine("Digite o gênero apartir da opções informada acima: ");
-            int enterGenre = int.Parse(Console.ReadLine());
+            int enterGenre = int.Parse("2");
 
             Console.WriteLine("Digite o titulo da serie: ");
             string enterTitle = Console.ReadLine();
 
             Console.WriteLine("Digite o ano de lançamento da serie: ");
-            string enterAge = Console.ReadLine();
+            int enterAge = int.Parse("Console.ReadLine()");
 
             Console.WriteLine("Digite a descrição da serie: ");
             string enterDescription = Console.ReadLine();
