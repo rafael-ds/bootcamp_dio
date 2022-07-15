@@ -1,0 +1,13 @@
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\bin\Debug\netcoreapp3.1\ProjetoCrudSeries.exe
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\bin\Debug\netcoreapp3.1\ProjetoCrudSeries.deps.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\bin\Debug\netcoreapp3.1\ProjetoCrudSeries.runtimeconfig.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\bin\Debug\netcoreapp3.1\ProjetoCrudSeries.runtimeconfig.dev.json
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\bin\Debug\netcoreapp3.1\ProjetoCrudSeries.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\bin\Debug\netcoreapp3.1\ProjetoCrudSeries.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.csprojAssemblyReference.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.AssemblyInfoInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.AssemblyInfo.cs
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.csproj.CoreCompileInputs.cache
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.dll
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.pdb
+C:\Users\RadiDev\Documents\Dev\Git\bootcamp_dio\Geracao_tech_unimed-BH\modulo-6-Ecossistema_NET_com_C#\Projeto_dotNet\cadastro_series\ProjetoCrudSeries\obj\Debug\netcoreapp3.1\ProjetoCrudSeries.genruntimeconfig.cache

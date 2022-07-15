@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\RadiDev\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\RadiDev\\.nuget\\packages"
+    ]
+  }
+}
