@@ -23,6 +23,7 @@ namespace ProjetoCrudSeries
 						break;
 
 					case "3":
+                        UpedateSerie();
 						break;
 
 					case "4":
@@ -91,6 +92,39 @@ namespace ProjetoCrudSeries
             );
             repository.Insert(newSerie);
 
+        }
+
+        private static void UpedateSerie(){
+            Console.WriteLine("Informe o Id da serie: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+
+            foreach (int item in Enum.GetValues(typeof(Genre)))
+            {
+                Console.WriteLine(" {0} - {1}", item, Enum.GetName(typeof(Genre), item));
+                // Console.WriteLine();
+            }
+
+            Console.WriteLine(" Digite o gênero apartir da opções informada acima: ");
+            int enterGenre = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(" Digite o titulo da serie: ");
+            string enterTitle = Console.ReadLine();
+
+            Console.WriteLine(" Digite o ano de lançamento da serie: ");
+            int enterAge = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(" Digite a descrição da serie: ");
+            string enterDescription = Console.ReadLine();
+
+            Serie updateSerie = new Serie(
+                                        id: indiceSerie,
+                                        genre: (Genre)enterGenre,
+                                        title: enterTitle,
+                                        age: enterAge,
+                                        descrition: enterDescription
+            );
+            repository.Update(indiceSerie, updateSerie);
         }
 
          private static string Menu()

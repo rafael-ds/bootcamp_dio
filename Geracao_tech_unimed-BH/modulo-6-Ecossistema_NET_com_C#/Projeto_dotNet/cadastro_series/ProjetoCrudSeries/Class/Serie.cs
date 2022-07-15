@@ -24,6 +24,18 @@ namespace ProjetoCrudSeries
             this.Exclude = false;
         }
 
+        public override string ToString()
+        {
+            string result = "";
+            result += $"Gênero: {this.Genre} {Environment.NewLine}";
+            result += $"Titulo: {this.Title} {Environment.NewLine}";
+            result += $"Descrição: {this.Description} {Environment.NewLine}";
+            result += $"Lançamento: {this.Age}";
+            result += $"Excluido: {this.Exclude}";
+
+            return result;
+        }
+
         public string ReturnTitle()
         {
             return this.Title;
