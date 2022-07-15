@@ -30,7 +30,7 @@ namespace ProjetoCrudSeries
             result += $"Gênero: {this.Genre} {Environment.NewLine}";
             result += $"Titulo: {this.Title} {Environment.NewLine}";
             result += $"Descrição: {this.Description} {Environment.NewLine}";
-            result += $"Lançamento: {this.Age}";
+            result += $"Lançamento: {this.Age}\n";
             result += $"Excluido: {this.Exclude}";
 
             return result;
@@ -49,6 +49,10 @@ namespace ProjetoCrudSeries
         public void DeleteSerie()
         {
             this.Exclude = true;
+        }
+
+        public bool ReturnExclude(){
+            return this.Exclude = true;
         }
     }
 

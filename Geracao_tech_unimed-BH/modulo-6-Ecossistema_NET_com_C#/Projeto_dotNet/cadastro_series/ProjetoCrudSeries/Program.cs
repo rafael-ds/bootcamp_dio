@@ -27,9 +27,11 @@ namespace ProjetoCrudSeries
 						break;
 
 					case "4":
+                        DeleteSerie();
 						break;
 
 					case "5":
+                        ViewSerie();
 						break;
 
 					case "C":
@@ -57,8 +59,10 @@ namespace ProjetoCrudSeries
 			}
 
 			foreach (var serie in list)
-			{                
-				Console.WriteLine("#ID {0}: - {1}", serie.ReturnId(), serie.ReturnTitle());
+			{   
+                var exclude = serie.ReturnExclude();  
+
+                Console.WriteLine("#ID {0}: - {1} {2}", serie.ReturnId(), serie.ReturnTitle(), (exclude ? "*Excluido*" : ""));         
 			}
 		}
 
@@ -125,6 +129,23 @@ namespace ProjetoCrudSeries
                                         descrition: enterDescription
             );
             repository.Update(indiceSerie, updateSerie);
+        }
+
+        private static void DeleteSerie(){
+            Console.WriteLine("Digite o Id da série: ");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            repository.Delete(indiceSerie);
+        }
+
+
+        private static void ViewSerie(){
+            Console.WriteLine("Digite o Id da série");
+            int indiceSerie = int.Parse(Console.ReadLine());
+
+            var serie = repository.ReturnId(indiceSerie);
+
+            Console.WriteLine(serie);
         }
 
          private static string Menu()
