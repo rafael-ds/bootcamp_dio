@@ -37,4 +37,3 @@ Término: 00/2022
  * ✔ [Desafio de projeto Angular - Criando um front-end de um ecommerce com Angular](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/Modulo-4-Web-com-Angular/projeto_ecommerce/gamerplay)
  * ✔ [Desafio de projeto C# - Abstraindo um jogo RPG usando Orientação a Objeto](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/modulo-6-Ecossistema_NET_com_C%23/Projeto_dotNet/abstraindo_rpg_com_csharp/SaintSeiya)
  * ✔ [Desafio de projeto C# - Criando um CRUD para cadastro de Séries](https://github.com/rafael-ds/bootcamp_dio/tree/main/Geracao_tech_unimed-BH/modulo-6-Ecossistema_NET_com_C%23/Projeto_dotNet/cadastro_series/ProjetoCrudSeries)
-
