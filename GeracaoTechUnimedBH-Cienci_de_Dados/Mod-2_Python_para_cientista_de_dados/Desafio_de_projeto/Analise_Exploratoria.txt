@@ -1,0 +1,3 @@
+Google Notbook da Analise exploratoria
+
+https://colab.research.google.com/drive/1qL0PCtvaoFI-MjTq7TqfX0WyVhevP_UG?usp=sharing
