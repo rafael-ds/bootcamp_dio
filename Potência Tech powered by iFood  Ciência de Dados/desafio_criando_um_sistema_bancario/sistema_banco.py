@@ -1,4 +1,4 @@
-# Projeto proposto pelo bootcamp Dio.me Potência Tech poered by iFood | Ciência de Dados
+# Projeto proposto pelo bootcamp Dio.me Potência Tech powered by iFood | Ciência de Dados
 # Objetivo é realizar um sistema bancario que simule as principais realizações como:
 # Depositar - Sacar e Visualizar extratos
 # Na resolução do desafio foi usado o funções no desenvolvimento do projeto.
