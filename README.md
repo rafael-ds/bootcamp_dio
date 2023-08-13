@@ -59,3 +59,20 @@ Término: 28/08/2022
 
  * ✔ [Infrastrutura como código](https://github.com/rafael-ds/bootcamp_dio/tree/main/Linux%20Experince/Projeto_1-iac)
  * ✔ [Infrastutura como código 2 (Apache)](https://github.com/rafael-ds/bootcamp_dio/tree/main/Linux%20Experince/Projeto_2-iac)
+
+
+## Potência Tech powered by iFood | Ciência de Dados
+  **Descrição**
+
+O Bootcamp traz os princípios da Ciência de Dados, utilizando Python, uma das linguagens de programação mais utilizadas por cientistas de dados, por meio de cursos, desafios de projeto e desafios de código. Além disso, exploraremos temas fundamentais, como Modelagem de Dados e conceitos básicos de Aprendizado de Máquina.([Fonte: Dio.me](https://web.dio.me/track/fd133067-6f2b-47c8-9763-edd87ec6b1cc?tab=about))
+
+⏱ 80h<br>
+<hr>
+
+### 🚀 Tecnologias
+◻ <img src='https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png' width='30'>
+
+### 💻 Projetos
+
+ * ✔ [Desenvolvendo um sistema bancário](https://github.com/rafael-ds/bootcamp_dio/tree/main/Pot%C3%AAncia%20Tech%20powered%20by%20iFood%20%20Ci%C3%AAncia%20de%20Dados/desafio_criando_um_sistema_bancario)
+ 
