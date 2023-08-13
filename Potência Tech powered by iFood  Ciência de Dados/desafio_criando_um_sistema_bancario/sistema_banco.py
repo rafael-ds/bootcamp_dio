@@ -1,3 +1,4 @@
+conta = []
 
 # Função banner que tem como objetivo somente informar em que area o úsuario se encontra
 def banner(texto):
@@ -5,40 +6,31 @@ def banner(texto):
     print('='*50)
     print(f'{texto}')
     print('='*50)
-    print('\n')
-
-def banner_extrato(valor):
-    print('\n')
-    print('='*50)
-    print(f'Saldo em conta R${valor}')
-    print('='*50)
-    print('\n')
-
-
+    # print('\n')
+    
 
 banner(' Desafio de projeto - - Sistema Bancário ')
 
-conta = []
 
 def sacar_valor():
     print('sacar')
 
+# Função que tem como objetivo depositar um valor na lista Conta[]
 def depositar_valor():
 
     banner(' Depósitar ')
 
     print(" Informe o valor a ser depositado:\n ")
 
-    valor_deposito = input(' ')
+    valor_deposito = int(input())
 
-    confirmar = input(f' Valor para depósito é de R${valor_deposito}\n Pressione\n [S] para comfirmar o deposito\n [N] para cancelar o deposito \n')
+    confirmar = input(f' Valor para depósito é de R${valor_deposito} Pressione:\n [S] para comfirmar o deposito\n [N] para cancelar o deposito \n')
 
     if confirmar == 's':
         conta.append(valor_deposito)
-        print(f'\n R${valor_deposito} depósitado com sucesso!\n')
-
-        for i in conta:
-            print(f'Slado em conta R${conta}')
+        print(f'\n R${valor_deposito} depósitado com sucesso!')
+        # Reesibir extrato apos o processo
+        
 
     elif confirmar == 'n':
         print('Deposito cancelado\n')
@@ -46,10 +38,19 @@ def depositar_valor():
         print('Porfavor informe um opção valida\n')
 
 
-
-
 def extrato_bancario():
-    print('extrato')
+    banner('Extrato')
+
+    print('-'*25, 'Depósitos', '-'*25)
+
+    for i in conta:
+        print(f' R$ {i}')
+
+    print('-'*60)
+
+
+    saldo_em_conta = sum(conta)    
+    return f' Saldo em conta R$ {saldo_em_conta}'
 
 
 while True:
@@ -77,7 +78,8 @@ while True:
         depositar_valor()
 
     elif entrada == extrato:
-       extrato_bancario()
+    #    extrato_bancario()
+        print(extrato_bancario())
 
     elif entrada == sair:
         break
