@@ -1,4 +1,7 @@
-conta = []
+conta = 0
+
+extrato_depositos = []
+extrato_saques = []
 
 # Função banner que tem como objetivo somente informar em que area o úsuario se encontra
 def banner(texto):
@@ -15,19 +18,25 @@ banner(' Desafio de projeto - - Sistema Bancário ')
 def sacar_valor():
     print('sacar')
 
+
+
 # Função que tem como objetivo depositar um valor na lista Conta[]
 def depositar_valor():
+    global conta
 
     banner(' Depósitar ')
 
     print(" Informe o valor a ser depositado:\n ")
 
-    valor_deposito = int(input())
+    valor_deposito = float(input())
 
     confirmar = input(f' Valor para depósito é de R${valor_deposito} Pressione:\n [S] para comfirmar o deposito\n [N] para cancelar o deposito \n')
-
+    
     if confirmar == 's':
-        conta.append(valor_deposito)
+
+        conta += valor_deposito
+        extrato_depositos.append(valor_deposito)
+
         print(f'\n R${valor_deposito} depósitado com sucesso!')
         # Reesibir extrato apos o processo
         
@@ -43,7 +52,14 @@ def extrato_bancario():
 
     print('-'*25, 'Depósitos', '-'*25)
 
-    for i in conta:
+    for i in extrato_depositos:
+        print(f' R$ {i}')
+
+    print('-'*60)
+
+    print('-'*25, 'Saques', '-'*25)
+
+    for i in extrato_saques:
         print(f' R$ {i}')
 
     print('-'*60)
@@ -78,7 +94,7 @@ while True:
         depositar_valor()
 
     elif entrada == extrato:
-    #    extrato_bancario()
+        # extrato_bancario()
         print(extrato_bancario())
 
     elif entrada == sair:
