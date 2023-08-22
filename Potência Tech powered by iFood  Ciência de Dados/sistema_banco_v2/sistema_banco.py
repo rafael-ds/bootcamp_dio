@@ -9,17 +9,7 @@ extrato_depositos = []
 extrato_saques = []
 
 
-# Lista temporaria
-lista_clientes = [
-    {
-        'nome':'rafael',
-        'cpf':'123'
-    },
-    {
-        'nome':'manu',
-        'cpf':'321'
-    }
-]
+lista_clientes = []
 
 
 def banner(texto):
@@ -33,22 +23,60 @@ def banner(texto):
 banner(' Desafio de projeto - - Sistema Bancário ')
 
 
+def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf):
+    novo_cliente = {
+        'nome': nome,
+        'nasc': nasc,
+        'cpf': cpf,
+        'endereco': {
+            'logradoro': logradoro,
+            'bairro': bairro,
+            'cidade': cidade,
+            'UF': uf
+        }
+    }
+    lista_clientes.append(novo_cliente)
+
+
+def cadastrar_cliente():
+
+    nome = input('Infomer o seu nome completo: ')
+    nasc = input('Infomer o sua data de nascimento : ')
+    cpf = input('Infomer o seu CPF: ')
+    logradoudo = input('Infomer o logradouro: ')
+    bairro = input('Infomer o bairro: ')
+    cidade = input('Infomer a cidade: ')
+    uf = input('Infomer a UF: ')
+
+    novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf)
+
+    lista_clientes.append(novo_cadastro)
+
+
+
 def login():
 
     if not lista_clientes:
         print('Nenhum cadastro realizado')
+        print('Cadastre um usuario para continuar:\n')
 
-        # cadastrar_cliente()
+        cadastrar_cliente()
+        print('Clinte cadastrado com sucesso!\n')
+
+        login()
 
     else:
         user = input('Informe seu usuario: ')
-        cpf = input('Informe seu cpf: ')
+        cpf = input('Informe seu cpf:')
 
         for i in lista_clientes:
             if i.get('nome') == user and i.get('cpf') == cpf:
                 print(f'Seja bem vindo(a) - {i["nome"]}')
 
                 menu(f' Usuário Logado - {i["nome"]}')
+            else:
+                print('Senha ou usuário incorreto\n')
+                login()
 
 
 def sacar_valor():
