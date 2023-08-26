@@ -3,7 +3,7 @@
 # Depositar - Sacar e Visualizar extratos
 # Na resolução do desafio foi usado o funções no desenvolvimento do projeto.
 
-conta = 0
+num_conta = 0
 
 extrato_depositos = []
 extrato_saques = []
@@ -22,8 +22,14 @@ def banner(texto):
 
 banner(' Desafio de projeto - - Sistema Bancário ')
 
+def conta():
+    global num_conta
+    num_conta += 1
 
-def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf):
+    return num_conta
+
+
+def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf, conta):
     novo_cliente = {
         'nome': nome,
         'nasc': nasc,
@@ -33,7 +39,8 @@ def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf):
             'bairro': bairro,
             'cidade': cidade,
             'UF': uf
-        }
+        },
+        'conta':conta
     }
     lista_clientes.append(novo_cliente)
 
@@ -48,9 +55,10 @@ def cadastrar_cliente():
     cidade = input('Infomer a cidade: ')
     uf = input('Infomer a UF: ')
 
-    novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf)
+    novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf, conta())
 
     lista_clientes.append(novo_cadastro)
+
 
 
 
@@ -73,7 +81,7 @@ def login():
             if i.get('nome') == user and i.get('cpf') == cpf:
                 print(f'Seja bem vindo(a) - {i["nome"]}')
 
-                menu(f' Usuário Logado - {i["nome"]}')
+                menu({i["nome"]}, {i["conta"]})
             else:
                 print('Senha ou usuário incorreto\n')
                 login()
@@ -154,22 +162,26 @@ def extrato_bancario():
 
 # Função menu
 # Parametro para mostra o nome do usuario toda vez que mostra o menu.
-def menu(usuario_logado):
+def menu(usuario_logado, conta):
     while True:
 
-        banner(f' *--MENU--* {usuario_logado}')
+        banner(f' *--MENU--*\n Usuário: {usuario_logado} - Agencia: 00123 - Conta: {conta}')
 
         print('Informe a operação desejada:\n')
 
         print(' [1] - Sacar')
         print(' [2] - Depositar')
         print(' [3] - Extrato')
-        print(' [4] - sair')
+        print(' [4] - Cria uma nova conta')
+        print(' [5] - Mostrar contas ativas')
+        print(' [6] - sair')
 
         sacar = '1'
         depositar = '2'
         extrato = '3'
-        sair = '4'
+        criar_nova_conta = '4'
+        contas_ativas = '5'
+        sair = '6'
 
         entrada = input()
 
@@ -181,6 +193,12 @@ def menu(usuario_logado):
 
         elif entrada == extrato:
             print(extrato_bancario())
+        
+        elif entrada == criar_nova_conta:
+            cadastrar_cliente()
+
+        elif entrada == contas_ativas:
+            print(lista_clientes)
 
         elif entrada == sair:
             break
