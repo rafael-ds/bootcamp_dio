@@ -9,7 +9,7 @@ extrato_depositos = []
 extrato_saques = []
 
 
-lista_clientes = []
+lista_clientes = {}
 
 
 def banner(texto):
@@ -42,7 +42,8 @@ def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf, conta):
         },
         'conta':conta
     }
-    lista_clientes.append(novo_cliente)
+    
+    return novo_cliente
 
 
 def cadastrar_cliente():
@@ -57,7 +58,7 @@ def cadastrar_cliente():
 
     novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf, conta())
 
-    lista_clientes.append(novo_cadastro)
+    lista_clientes[nome.upper()] = novo_cadastro
 
 
 
@@ -78,13 +79,13 @@ def login():
         cpf = input('Informe seu cpf:')
 
         for i in lista_clientes:
-            if i.get('nome') == user and i.get('cpf') == cpf:
+            if i['nome'] == user and i['cpf'] == cpf:
                 print(f'Seja bem vindo(a) - {i["nome"]}')
 
                 menu({i["nome"]}, {i["conta"]})
-            else:
-                print('Senha ou usuário incorreto\n')
-                login()
+        else:
+            print('Senha ou usuário incorreto\n')
+            login()
 
 
 def sacar_valor():
