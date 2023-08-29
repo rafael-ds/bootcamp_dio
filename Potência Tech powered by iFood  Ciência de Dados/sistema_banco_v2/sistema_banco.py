@@ -4,6 +4,7 @@
 # Na resolução do desafio foi usado o funções no desenvolvimento do projeto.
 
 num_conta = 0
+saldo_conta = 0
 
 extrato_depositos = []
 extrato_saques = []
@@ -48,6 +49,8 @@ def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf, conta):
 
 def cadastrar_cliente():
 
+    print('-'*100)
+
     nome = input('Infomer o seu nome completo: ')
     nasc = input('Infomer o sua data de nascimento : ')
     cpf = input('Infomer o seu CPF: ')
@@ -56,11 +59,13 @@ def cadastrar_cliente():
     cidade = input('Infomer a cidade: ')
     uf = input('Infomer a UF: ')
 
+    print('-'*100)
+
     novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf, conta())
 
     lista_clientes[nome.upper()] = novo_cadastro
 
-
+    menu_principal()
 
 
 def login():
@@ -75,10 +80,10 @@ def login():
         login()
 
     else:
-        user = input('Informe seu usuario: ')
-        cpf = input('Informe seu cpf:')
+        user = str(input('Informe seu usuario: '))
+        cpf = str(input('Informe seu cpf:'))
 
-        for i in lista_clientes:
+        for i in lista_clientes.values():
             if i['nome'] == user and i['cpf'] == cpf:
                 print(f'Seja bem vindo(a) - {i["nome"]}')
 
@@ -89,7 +94,7 @@ def login():
 
 
 def sacar_valor():
-    global conta
+    global saldo_conta
 
     print('sacar')
 
@@ -100,9 +105,9 @@ def sacar_valor():
     
     if confirmar == 's':
 
-        if conta > valor_saque:
-            saque = conta - valor_saque
-            conta = saque
+        if saldo_conta > valor_saque:
+            saque = saldo_conta - valor_saque
+            saldo_conta = saque
 
             extrato_saques.append(valor_saque)
 
@@ -115,9 +120,9 @@ def sacar_valor():
     else:
         print(' Porfavor informe um opção valida\n')
 
-
+''
 def depositar_valor():
-    global conta # Foi necessario para que ouvesse conexão com o a variavel conta do escopo global
+    global saldo_conta # Foi necessario para que ouvesse conexão com o a variavel conta do escopo global
 
     banner(' Depositar ')
 
@@ -129,7 +134,7 @@ def depositar_valor():
     
     if confirmar == 's':
 
-        conta += valor_deposito
+        saldo_conta += valor_deposito
         extrato_depositos.append(valor_deposito)
 
         print(f'\n R${valor_deposito} depósitado com sucesso!')
@@ -158,8 +163,32 @@ def extrato_bancario():
 
     print('-'*60)
    
-    return f' Saldo em conta R$ {conta}'
+    return f' Saldo em conta R$ {saldo_conta}'
 
+def menu_principal():
+    print(' [1] - Acessar sua conta')
+    print(' [2] - Cria uma nova conta')
+    print(' [3] - lista usuarios')
+    print(' [4] - Sair')
+
+    opcao = input()
+
+    if opcao == '1':
+        login()
+
+    elif opcao == '2':
+        cadastrar_cliente()
+
+    elif opcao == '3':
+        for i in lista_clientes:
+            print(i)
+        menu_principal()
+
+    elif opcao == '4':
+        exit()
+
+    else:
+        print('Informe uma opção valida')
 
 # Função menu
 # Parametro para mostra o nome do usuario toda vez que mostra o menu.
@@ -173,42 +202,28 @@ def menu(usuario_logado, conta):
         print(' [1] - Sacar')
         print(' [2] - Depositar')
         print(' [3] - Extrato')
-        print(' [4] - Cria uma nova conta')
-        print(' [5] - Mostrar contas ativas')
-        print(' [6] - sair')
+        print(' [4] - sair')
 
-        sacar = '1'
-        depositar = '2'
-        extrato = '3'
-        criar_nova_conta = '4'
-        contas_ativas = '5'
-        sair = '6'
+        opcao = input()
 
-        entrada = input()
-
-        if entrada == sacar:
+        if opcao == '1':
             sacar_valor()
 
-        elif entrada == depositar:
+        elif opcao == '2':
             depositar_valor()
 
-        elif entrada == extrato:
+        elif opcao == '3':
             print(extrato_bancario())
         
-        elif entrada == criar_nova_conta:
-            cadastrar_cliente()
+        elif opcao == '4':
+            menu_principal()
 
-        elif entrada == contas_ativas:
-            print(lista_clientes)
-
-        elif entrada == sair:
-            break
         else:
             print('Favor digitar um opção válida\n')
 
 
 
-login()
+menu_principal()
 
 
 
