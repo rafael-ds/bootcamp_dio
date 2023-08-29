@@ -61,7 +61,7 @@ def cadastrar_cliente():
             break    
     else:
         nome = input('Infomer o seu nome completo: ')
-        nasc = input('Infomer o sua data de nascimento : [Formato 00/00/0000]')
+        nasc = input('Infomer o sua data de nascimento - [Formato 00/00/0000]: ')
         logradoudo = input('Infomer o logradouro: ')
         bairro = input('Infomer o bairro: ')
         cidade = input('Infomer a cidade: ')
@@ -111,6 +111,7 @@ def sacar_valor():
 
     print(' Informe o valor que deseja sacar: ')
     valor_saque = float(input())
+    print('')
 
     confirmar = input(f' Valor a ser depositado é de R${valor_saque} Pressione:\n [S] para confirmar o deposito\n [N] para cancelar o deposito \n')
     
@@ -123,8 +124,9 @@ def sacar_valor():
             extrato_saques.append(valor_saque)
 
         else:
+            print('')
             print(' Saldo insuficiente! ')
-            print(f' Saldo atual R$ {conta}')
+            print(f' Saldo atual R$ {saldo_conta}')
 
     elif confirmar == 'n':
         print(' Saque cancelado...\n')
@@ -177,6 +179,7 @@ def extrato_bancario():
     return f' Saldo em conta R$ {saldo_conta}'
 
 def menu_principal():
+    print('-'*25, 'Menu Principal', '-'*25)
     print(' [1] - Acessar sua conta')
     print(' [2] - Cria uma nova conta')
     print(' [3] - Sair')
