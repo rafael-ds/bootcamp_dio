@@ -50,7 +50,7 @@ def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf, conta):
 def cadastrar_cliente():
 
     print('-'*100)
-
+    
     nome = input('Infomer o seu nome completo: ')
     nasc = input('Infomer o sua data de nascimento : ')
     cpf = input('Infomer o seu CPF: ')
@@ -63,7 +63,12 @@ def cadastrar_cliente():
 
     novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf, conta())
 
-    lista_clientes[nome.upper()] = novo_cadastro
+    for i in lista_clientes.values():
+        if i['cpf'] == cpf:
+            print('O cpf informado já esta cadastrado! ')
+            break
+    else:
+        lista_clientes[nome.upper()] = novo_cadastro
 
     menu_principal()
 
