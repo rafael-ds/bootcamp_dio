@@ -75,4 +75,6 @@ O Bootcamp traz os princípios da Ciência de Dados, utilizando Python, uma das 
 ### 💻 Projetos
 
  * ✔ [Desenvolvendo um sistema bancário](https://github.com/rafael-ds/bootcamp_dio/tree/main/Pot%C3%AAncia%20Tech%20powered%20by%20iFood%20%20Ci%C3%AAncia%20de%20Dados/desafio_criando_um_sistema_bancario)
+
+ * ✔ [Otimizando o sistema bancário](https://github.com/rafael-ds/bootcamp_dio/tree/main/Pot%C3%AAncia%20Tech%20powered%20by%20iFood%20%20Ci%C3%AAncia%20de%20Dados/sistema_banco_v2)
  
