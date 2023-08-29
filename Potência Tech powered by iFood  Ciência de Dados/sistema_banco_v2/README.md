@@ -4,7 +4,7 @@
 
 # 📑 Sobre
 Projeto bootcamp iFood junto a Digital Innovation One com objetivo de aplicar os conhecimentos adquiridos no módulo de desenvolvimento em python.
-O projeto desenvolvido simula ações basicas de um sitema bancário como por exemplo, Sacar, Depositar e visualizar extrato..
+O projeto desenvolvido simula ações basicas de um sitema bancário como por exemplo, Sacar, Depositar e visualizar extrato. Tambem teve como objetivo a implementação das funções de login, cadastro de cliente e menu peincipal.
 
 
 **Modulo:** Dominando python para cência de dados
@@ -19,11 +19,17 @@ O projeto desenvolvido simula ações basicas de um sitema bancário como por ex
 
 # 🖱 Layout
 
-* <img src="../img/cena_1.png">
+* <img src="../img/img_SisBanco_1.png">
 <hr>
 
-* <img src="../img/cena_2.png">
+* <img src="../img/img_SisBanco_2.png">
 <hr>
 
-* <img src="../img/cena_3.png">
+* <img src="../img/img_SisBanco_3.png">
+<hr>
+
+* <img src="../img/img_SisBanco_4.png">
+<hr>
+
+* <img src="../img/img_SisBanco_5.png">
 
