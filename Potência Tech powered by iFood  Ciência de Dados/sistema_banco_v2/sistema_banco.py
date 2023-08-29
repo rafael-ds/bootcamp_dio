@@ -23,13 +23,14 @@ def banner(texto):
 
 banner(' Desafio de projeto - - Sistema Bancário ')
 
+# Para cada conta criada um novo numero é gerado
 def conta():
     global num_conta
     num_conta += 1
 
     return num_conta
 
-
+ 
 def dados_cliente(nome, nasc, cpf, logradoro, bairro, cidade, uf, conta):
     novo_cliente = {
         'nome': nome,
@@ -52,13 +53,15 @@ def cadastrar_cliente():
     print('-'*100)
     cpf = input('Infomer o seu CPF: ')
 
+    # Loop que pecorre a lista_cliente para verificar se existe
+    # CPF igual ao informando
     for i in lista_clientes.values():
         if i['cpf'] == cpf:
             print('O cpf informado já esta cadastrado! ')
             break    
     else:
         nome = input('Infomer o seu nome completo: ')
-        nasc = input('Infomer o sua data de nascimento : ')
+        nasc = input('Infomer o sua data de nascimento : [Formato 00/00/0000]')
         logradoudo = input('Infomer o logradouro: ')
         bairro = input('Infomer o bairro: ')
         cidade = input('Infomer a cidade: ')
@@ -68,6 +71,7 @@ def cadastrar_cliente():
 
         novo_cadastro = dados_cliente(nome, nasc, cpf, logradoudo, bairro, cidade, uf, conta())
 
+        # Cria um novo dicionario tendo o nome do usuário como chave
         lista_clientes[nome.upper()] = novo_cadastro
     
     menu_principal()
@@ -88,6 +92,8 @@ def login():
         user = str(input('Informe seu usuario: '))
         cpf = str(input('Informe seu cpf:'))
 
+        # Loop para verificar se os valores 'nomes' e 'cpf' digitados
+        # Exitem na lista_clientes 
         for i in lista_clientes.values():
             if i['nome'] == user and i['cpf'] == cpf:
                 print(f'Seja bem vindo(a) - {i["nome"]}')
@@ -173,8 +179,7 @@ def extrato_bancario():
 def menu_principal():
     print(' [1] - Acessar sua conta')
     print(' [2] - Cria uma nova conta')
-    print(' [3] - lista usuarios')
-    print(' [4] - Sair')
+    print(' [3] - Sair')
 
     opcao = input()
 
@@ -185,11 +190,6 @@ def menu_principal():
         cadastrar_cliente()
 
     elif opcao == '3':
-        for i in lista_clientes:
-            print(i)
-        menu_principal()
-
-    elif opcao == '4':
         exit()
 
     else:
